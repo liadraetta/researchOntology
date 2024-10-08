@@ -1,0 +1,295 @@
+@prefix : <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix soa: <https://semopenalex.org/ontology/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology> .
+
+<http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#has_role
+:has_role rdf:type owl:ObjectProperty ;
+          rdfs:domain foaf:Person ;
+          rdfs:range :Role .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#is_author_of
+:is_author_of rdf:type owl:ObjectProperty ;
+              owl:inverseOf :authored_by ;
+              rdfs:domain foaf:Person ;
+              rdfs:range :Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#is_funded_by
+:is_funded_by rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain foaf:Project ;
+              rdfs:range foaf:Organization .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#is_part_of
+:is_part_of rdf:type owl:ObjectProperty ;
+            rdfs:domain :Work ;
+            rdfs:range foaf:Project .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#member_of
+:member_of rdf:type owl:ObjectProperty ;
+           rdfs:domain foaf:Person ;
+           rdfs:range foaf:Organization .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#takes_part_to
+:takes_part_to rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain foaf:Organization ,
+                           foaf:Person ;
+               rdfs:range foaf:Project .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/authored_by
+:authored_by rdf:type owl:ObjectProperty ;
+             rdfs:domain :Work ;
+             rdfs:range foaf:Person .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/edited_by
+:edited_by rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           owl:inverseOf :edits ;
+           rdfs:domain :Work ;
+           rdfs:range :Editor .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/edits
+:edits rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf owl:topObjectProperty ;
+       rdfs:domain :Editor ;
+       rdfs:range :Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/isAbout
+:isAbout rdf:type owl:ObjectProperty ;
+         rdfs:domain :Work ;
+         rdfs:range :Topic .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/manages
+:manages rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Cognome
+:Cognome rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Lingua
+:Lingua rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Work ;
+        rdfs:range xsd:language .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Nome
+:Nome rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Referee
+:Referee rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Work ;
+         rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/anno
+:anno rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Work ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/editor_city
+:editor_city rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Editor ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/editor_name
+:editor_name rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Editor ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/editor_nationality
+:editor_nationality rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :Editor ;
+                    rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/keywords
+:keywords rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Work ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/numero_pagine
+:numero_pagine rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/pagine_da_a
+:pagine_da_a rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/titolo
+:titolo rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:domain :Work ;
+        rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Affiliation
+:Affiliation rdf:type owl:Class ;
+             owl:equivalentClass :Institution ;
+             rdfs:subClassOf foaf:Organization .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Associate_professor
+:Associate_professor rdf:type owl:Class ;
+                     rdfs:subClassOf :Faculty_member .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Department
+:Department rdf:type owl:Class ;
+            rdfs:subClassOf foaf:Organization .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#ERC_panel
+:ERC_panel rdf:type owl:Class ;
+           rdfs:subClassOf :Topic .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Faculty_member
+:Faculty_member rdf:type owl:Class ;
+                rdfs:subClassOf :Role .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Full_professor
+:Full_professor rdf:type owl:Class ;
+                rdfs:subClassOf :Faculty_member .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Institution
+:Institution rdf:type owl:Class ;
+             rdfs:subClassOf foaf:Organization .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#International_project
+:International_project rdf:type owl:Class ;
+                       rdfs:subClassOf foaf:Project .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Key_word
+:Key_word rdf:type owl:Class ;
+          rdfs:subClassOf :Topic .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#National_project
+:National_project rdf:type owl:Class ;
+                  rdfs:subClassOf foaf:Project .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Non_academic
+:Non_academic rdf:type owl:Class ;
+              rdfs:subClassOf :Role .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#PhD_student
+:PhD_student rdf:type owl:Class ;
+             rdfs:subClassOf :Faculty_member .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Student
+:Student rdf:type owl:Class ;
+         rdfs:subClassOf :Role .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Book
+:Book rdf:type owl:Class ;
+      rdfs:subClassOf :Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Book_chapter
+:Book_chapter rdf:type owl:Class ;
+              rdfs:subClassOf :Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Editor
+:Editor rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Editorial_work
+:Editorial_work rdf:type owl:Class ;
+                rdfs:subClassOf :Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Journal_contribution
+:Journal_contribution rdf:type owl:Class ;
+                      rdfs:subClassOf :Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Others
+:Others rdf:type owl:Class ;
+        rdfs:subClassOf :Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Patent
+:Patent rdf:type owl:Class ;
+        rdfs:subClassOf :Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Role
+:Role rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Topic
+:Topic rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Work
+:Work rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/contribution_in_conference_proceedings
+:contribution_in_conference_proceedings rdf:type owl:Class ;
+                                        rdfs:subClassOf :Work .
+
+
+###  http://xmlns.com/foaf/0.1/Organization
+foaf:Organization rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+foaf:Person rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Project
+foaf:Project rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
