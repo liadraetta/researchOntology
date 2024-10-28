@@ -28,7 +28,8 @@
 :editedBy rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
           owl:inverseOf reo:edits ;
-          rdfs:domain reo:Work .
+          rdfs:domain reo:Work ;
+          rdfs:range :Publisher .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#funds
@@ -76,7 +77,8 @@
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isPartOf
 :isPartOf rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
-          rdfs:domain [ rdf:type owl:Class ;
+          rdfs:domain :Department ,
+                      [ rdf:type owl:Class ;
                         owl:unionOf ( reo:Work
                                       foaf:Person
                                     )
@@ -262,7 +264,9 @@ fabio:hasPublicationYear rdf:type owl:DatatypeProperty ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#keywords
 :keywords rdf:type owl:DatatypeProperty ;
-          rdfs:subPropertyOf owl:topDataProperty .
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain reo:Work ,
+                      reo:keyword .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#language
@@ -324,6 +328,10 @@ foaf:name rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Affiliation
 :Affiliation rdf:type owl:Class ;
              owl:disjointWith foaf:Organization .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Department
+:Department rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#PE6_10
@@ -709,14 +717,6 @@ foaf:Project rdf:type owl:Class .
 #    Individuals
 #################################################################
 
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#
-: rdf:type owl:NamedIndividual ,
-           foaf:Person ;
-  :hasAffiliaton :DepartmentOfMathematics ;
-  :hasRole <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Collaborators_coord.> ;
-  foaf:name "Beatrice Bucciarelli"^^xsd:string .
-
-
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#AssociateProfessorSecondTier
 :AssociateProfessorSecondTier rdf:type owl:NamedIndividual ,
                                        reo:associateProfessor .
@@ -741,7 +741,8 @@ foaf:Project rdf:type owl:Class .
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#DepartmentOfMathematics
 :DepartmentOfMathematics rdf:type owl:NamedIndividual ,
-                                  :Affiliation .
+                                  :Affiliation ,
+                                  :Department .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#European_Commission
@@ -825,6 +826,18 @@ foaf:Project rdf:type owl:Class .
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#fixedTermResearchers
 :fixedTermResearchers rdf:type owl:NamedIndividual ,
                                reo:fixedTermResearchers .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#keyword_1
+:keyword_1 rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#98836
+: rdf:type owl:NamedIndividual ,
+           foaf:Person ;
+  :hasAffiliaton :DepartmentOfMathematics ;
+  :hasRole <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Collaborators_coord.> ;
+  foaf:name "Beatrice Bucciarelli"^^xsd:string .
 
 
 #################################################################
