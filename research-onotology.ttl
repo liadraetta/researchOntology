@@ -29,7 +29,11 @@
           rdfs:subPropertyOf owl:topObjectProperty ;
           owl:inverseOf reo:edits ;
           rdfs:domain reo:Work ;
-          rdfs:range :Publisher .
+          rdfs:range :Editor .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#editorialRole
+:editorialRole rdf:type owl:ObjectProperty .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#funds
@@ -49,6 +53,16 @@
                rdfs:range :Affiliation .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasKeyword
+:hasKeyword rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasMinisterialAreaAffiliation
+:hasMinisterialAreaAffiliation rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf owl:topObjectProperty .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasRole
 :hasRole rdf:type owl:ObjectProperty ;
          rdfs:subPropertyOf owl:topObjectProperty ;
@@ -56,9 +70,20 @@
          rdfs:range reo:Role .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasScientificAffiliation
+:hasScientificAffiliation rdf:type owl:ObjectProperty .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isAuthorOf
 :isAuthorOf rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:subPropertyOf :editorialRole ;
+            rdfs:domain foaf:Person ;
+            rdfs:range reo:Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isEditorOf
+:isEditorOf rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :editorialRole ;
             rdfs:domain foaf:Person ;
             rdfs:range reo:Work .
 
@@ -143,10 +168,23 @@ dct:title rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf owl:topDataProperty .
 
 
-###  http://purl.org/spar/fabio/hasPublicationYear
-fabio:hasPublicationYear rdf:type owl:DatatypeProperty ;
-                         rdfs:subPropertyOf owl:topDataProperty ;
-                         rdfs:domain reo:Work .
+###  http://purl.org/spar/fabio/publicationYear
+fabio:publicationYear rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain reo:Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#AffiliationEnd
+:AffiliationEnd rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain foaf:Project ;
+                rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#AffiliationStart
+:AffiliationStart rdf:type owl:DatatypeProperty ;
+                  rdfs:domain foaf:Person ;
+                  rdfs:range xsd:dateTime .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Co-authorsAffiliatedWithForeignInstitutions.
@@ -159,6 +197,11 @@ fabio:hasPublicationYear rdf:type owl:DatatypeProperty ;
 :DOI rdf:type owl:DatatypeProperty ;
      rdfs:subPropertyOf owl:topDataProperty ;
      rdfs:domain reo:Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#IRISID
+:IRISID rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#ISBNCode
@@ -183,6 +226,11 @@ fabio:hasPublicationYear rdf:type owl:DatatypeProperty ;
 :ScopusCode rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
             rdfs:domain reo:Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#UGOVID
+:UGOVID rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#URL
@@ -334,6 +382,10 @@ foaf:name rdf:type owl:DatatypeProperty ;
 :Department rdf:type owl:Class .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Editor
+:Editor rdf:type owl:Class .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#PE6_10
 :PE6_10 rdf:type owl:Class ;
         rdfs:subClassOf reo:ERCPanel .
@@ -342,10 +394,6 @@ foaf:name rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#PE6_7
 :PE6_7 rdf:type owl:Class ;
        rdfs:subClassOf reo:ERCPanel .
-
-
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Publisher
-:Publisher rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#academicArea
@@ -393,6 +441,12 @@ foaf:name rdf:type owl:DatatypeProperty ;
 :economicAndStatisticalSciences rdf:type owl:Class ;
                                 rdfs:subClassOf :academicArea ;
                                 rdfs:comment "AREA MIN. 13 - Scienze economiche e statistiche" .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#greekLanguageAndLiterature
+:greekLanguageAndLiterature rdf:type owl:Class ;
+                            rdfs:subClassOf :ancientPhilologicalLiteraryHistoricalArtisti_Sciences ;
+                            rdfs:comment "GSD code - 10/HELL-01 - Gruppo Scientifico Disciplinare (dal 09/05/2024)" .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#historicalPhilosophicalPedagogicalPsychologicalSciences
@@ -726,12 +780,29 @@ foaf:Project rdf:type owl:Class .
 :Basic_Human_Values_and_Moral_Foundations_Theory_in_ValueNet_Ontology rdf:type owl:NamedIndividual ,
                                                                                reo:Work ;
                                                                       :authoredBy :Rossana_Damiano ;
+                                                                      :editedBy :Springer_Science_and_Business_Media_Deutschland_GmbH ;
+                                                                      :hasKeyword :Commonsense_Reasoning ,
+                                                                                  :Frame_Semantics ,
+                                                                                  :_AI ;
                                                                       :isPartOf :_Social_Participation_and_Inclusion_through_Cultural_Engagement .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Beaterice_Bucciarelli
+:Beaterice_Bucciarelli rdf:type owl:NamedIndividual ,
+                                foaf:Person ;
+                       :hasAffiliaton :DepartmentOfMathematics ;
+                       :hasRole <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Collaborators_coord.> ;
+                       foaf:name "Beatrice Bucciarelli"^^xsd:string .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Collaborators_coord.
 <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Collaborators_coord.> rdf:type owl:NamedIndividual ,
                                                                                                           reo:assistants .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Commonsense_Reasoning
+:Commonsense_Reasoning rdf:type owl:NamedIndividual ,
+                                reo:keyword .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#DepartmentOfComputerScience
@@ -745,17 +816,60 @@ foaf:Project rdf:type owl:Class .
                                   :Department .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#DepartmentofHumanities
+:DepartmentofHumanities rdf:type owl:NamedIndividual ,
+                                 :Affiliation ,
+                                 :Department .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Elisabetta_Berardi
+:Elisabetta_Berardi rdf:type owl:NamedIndividual ;
+                    :hasAffiliaton :DepartmentofHumanities ;
+                    :hasRole :AssociateProfessorSecondTier ;
+                    :hasScientificAffiliation :greek_Language_and_Literature ;
+                    :isAuthorOf :_rhétorique_et_réalité ;
+                    :isPartOf :UniversityOfTurin ;
+                    :AffiliationStart "019-01-09"^^xsd:string ;
+                    :IRISID "16130"^^xsd:string ;
+                    :UGOVID "2095"^^xsd:string ;
+                    :gender "famale"^^xsd:string ;
+                    :orcidId "0000-0003-0120-426X"^^xsd:string .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#European_Commission
 :European_Commission rdf:type owl:NamedIndividual ,
                               foaf:Organization ;
                      :funds :_Social_Participation_and_Inclusion_through_Cultural_Engagement .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Federico_Abate_Daga
+:Federico_Abate_Daga rdf:type owl:NamedIndividual ;
+                     :hasRole :Techincal_and_amministrative_staff ;
+                     :AffiliationStart "2022-11-02"^^xsd:dateTime ;
+                     :gender "male"^^xsd:string ;
+                     :orcidId "rp67966"^^xsd:string ;
+                     foaf:name "Federico Abate Daga"^^xsd:string .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Frame_Semantics
+:Frame_Semantics rdf:type owl:NamedIndividual ,
+                          reo:keyword .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#HaMor_at_the_Profiling_Hate_Speech_Spreaders_on_Twitter
 :HaMor_at_the_Profiling_Hate_Speech_Spreaders_on_Twitter rdf:type owl:NamedIndividual ,
                                                                   reo:contributionInConferenceProceedings ;
-                                                         fabio:hasPublicationYear "2021"^^xsd:string ;
+                                                         :authoredBy :Rossana_Damiano ;
+                                                         fabio:publicationYear "2021"^^xsd:string ;
                                                          :language "en"^^xsd:language .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#IEEE_Computer_Society
+:IEEE_Computer_Society rdf:type owl:NamedIndividual ,
+                                :Editor ;
+                       reo:edits :Ontology-Based_Visualisation_of_Cultural_Heritage ;
+                       :editorCity "New York"^^xsd:string ;
+                       :editorCountry "USA"^^xsd:string .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Mathematics
@@ -768,6 +882,16 @@ foaf:Project rdf:type owl:Class .
            :hasAffiliaton :DepartmentOfComputerScience ;
            :hasRole :fixedTermResearchers ;
            :isAuthorOf :HaMor_at_the_Profiling_Hate_Speech_Spreaders_on_Twitter .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Ontology-Based_Visualisation_of_Cultural_Heritage
+:Ontology-Based_Visualisation_of_Cultural_Heritage rdf:type owl:NamedIndividual ,
+                                                            reo:contributionInConferenceProceedings ;
+                                                   :authoredBy :Rossana_Damiano ;
+                                                   :editedBy :IEEE_Computer_Society ;
+                                                   :hasKeyword :cultural_heritage ,
+                                                               :ontology ;
+                                                   fabio:publicationYear "2014"^^xsd:string .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#PE6_10
@@ -784,15 +908,45 @@ foaf:Project rdf:type owl:Class .
 :Rossana_Damiano rdf:type owl:NamedIndividual ,
                           foaf:Person ;
                  :hasRole :AssociateProfessorSecondTier ;
-                 :isAuthorOf :HaMor_at_the_Profiling_Hate_Speech_Spreaders_on_Twitter ;
+                 :isAuthorOf :HaMor_at_the_Profiling_Hate_Speech_Spreaders_on_Twitter ,
+                             :Ontology-Based_Visualisation_of_Cultural_Heritage ;
                  :isPartOf :UniversityOfTurin ;
                  :orcidId "0000-0001-9866-2843"^^xsd:string ;
                  foaf:name "Rossana Damiano"^^xsd:string .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Springer_Science_and_Business_Media_Deutschland_GmbH
+:Springer_Science_and_Business_Media_Deutschland_GmbH rdf:type owl:NamedIndividual ,
+                                                               :Editor ;
+                                                      reo:edits :Basic_Human_Values_and_Moral_Foundations_Theory_in_ValueNet_Ontology ;
+                                                      :editorCity "GEWERBESTRASSE"^^xsd:string ;
+                                                      :editorCountry "Germnay"^^xsd:string .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Techincal_and_amministrative_staff
+:Techincal_and_amministrative_staff rdf:type owl:NamedIndividual ,
+                                             reo:technicalAndAdministrativeStaff .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#UniversityOfTurin
 :UniversityOfTurin rdf:type owl:NamedIndividual ,
                             reo:University .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#_Introduction
+:_Introduction rdf:type owl:NamedIndividual ,
+                        reo:journalContribution ;
+               :isRelatedTo :PE6_10 ,
+                            :PE6_7 ;
+               fabio:publicationYear "2017"^^xsd:string ;
+               :DOI "10.1145/3018980"^^xsd:string ;
+               :ISIImpactFactor "1.727"^^xsd:string ;
+               :ISSNCode "1533-5399"^^xsd:string ;
+               :URL "http://dl.acm.org/citation.cfm?doid=3036639.3018980"^^xsd:string ;
+               :abstract "The aim of this special section is to bring together leading research on computational models of affect-related phenomena in interactions occurring either in social media or agent-based systems, by attaining cross-fertilization between two relevant perspectives: on the one hand, research on agent architectures and cognitive models, mainly concerned with the integration of affective states into agents and open to the creation of virtual and embodied agents; on the other hand, research on techniques for sentiment analysis and opinion mining, mainly focused on the processing of affective information in social media, typically (but not only) expressed through text. The integration of models and methods between the two perspectives can open the way to the development of a new generation of social and interactive applications that leverage the affective dimension to promote improved, spontaneous technology mediated interactions, including human–computer and human–human interactions, on small and large scale. Our goal here is to provide an overview of the open research challenges for the community of researchers interested in analyzing and modeling the interplay between affect and interaction in agent-based systems and social media, as well as an introduction to the special section." ;
+               :isOpenAccess "false"^^xsd:boolean ;
+               :keywords "Affective computing; Agent interaction; Socio-affective behavior; Computer Networks and Communications" ;
+               :referee "Esperti non anonimi" .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#_Preliminary_studies_of_a_LSQR-based_application_in_perspective_of_exascale_systems
@@ -807,20 +961,9 @@ foaf:Project rdf:type owl:Class .
                                                                  :isFundedBy :European_Commission .
 
 
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#_introduction
-:_introduction rdf:type owl:NamedIndividual ,
-                        reo:journalContribution ;
-               :isRelatedTo :PE6_10 ,
-                            :PE6_7 ;
-               fabio:hasPublicationYear "2017"^^xsd:string ;
-               :DOI "10.1145/3018980"^^xsd:string ;
-               :ISIImpactFactor "1.727"^^xsd:string ;
-               :ISSNCode "1533-5399"^^xsd:string ;
-               :URL "http://dl.acm.org/citation.cfm?doid=3036639.3018980"^^xsd:string ;
-               :abstract "The aim of this special section is to bring together leading research on computational models of affect-related phenomena in interactions occurring either in social media or agent-based systems, by attaining cross-fertilization between two relevant perspectives: on the one hand, research on agent architectures and cognitive models, mainly concerned with the integration of affective states into agents and open to the creation of virtual and embodied agents; on the other hand, research on techniques for sentiment analysis and opinion mining, mainly focused on the processing of affective information in social media, typically (but not only) expressed through text. The integration of models and methods between the two perspectives can open the way to the development of a new generation of social and interactive applications that leverage the affective dimension to promote improved, spontaneous technology mediated interactions, including human–computer and human–human interactions, on small and large scale. Our goal here is to provide an overview of the open research challenges for the community of researchers interested in analyzing and modeling the interplay between affect and interaction in agent-based systems and social media, as well as an introduction to the special section." ;
-               :isOpenAccess "false"^^xsd:boolean ;
-               :keywords "Affective computing; Agent interaction; Socio-affective behavior; Computer Networks and Communications" ;
-               :referee "Esperti non anonimi" .
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#cultural_heritage
+:cultural_heritage rdf:type owl:NamedIndividual ,
+                            reo:keyword .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#fixedTermResearchers
@@ -828,16 +971,27 @@ foaf:Project rdf:type owl:Class .
                                reo:fixedTermResearchers .
 
 
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#keyword_1
-:keyword_1 rdf:type owl:NamedIndividual .
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#greek_Language_and_Literature
+:greek_Language_and_Literature rdf:type owl:NamedIndividual ,
+                                        :greekLanguageAndLiterature ;
+                               rdfs:comment "SSD - HELL-01/B" .
 
 
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#98836
-: rdf:type owl:NamedIndividual ,
-           foaf:Person ;
-  :hasAffiliaton :DepartmentOfMathematics ;
-  :hasRole <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Collaborators_coord.> ;
-  foaf:name "Beatrice Bucciarelli"^^xsd:string .
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#ontology
+:ontology rdf:type owl:NamedIndividual ,
+                   reo:keyword .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Ethics_&_AI
+:_AI rdf:type owl:NamedIndividual ,
+              reo:keyword .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Les_Hymnes_de_Synésios_de_Cyrène:_chronologie,_rhétorique_et_réalité
+:_rhétorique_et_réalité rdf:type owl:NamedIndividual ,
+                                 reo:journalContribution ;
+                        :authoredBy :Elisabetta_Berardi ;
+                        fabio:publicationYear "2014"^^xsd:string .
 
 
 #################################################################
