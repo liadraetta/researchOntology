@@ -27,27 +27,36 @@ class DataGather:
 
         return req.json()
     
-    def scholar_search_paper(self,query,api,url="https://api.semanticscholar.org/graph/v1/paper/search/match"):
+    def scholar_search_paper(self,query,api=None,url="https://api.semanticscholar.org/graph/v1/paper/search/match"):
         
         params = {'query':query}
-        headers = {'X-API-KEY':api}
-        req = requests.get(url,params=params,headers=headers)
+        if api is not None:
+            headers = {'X-API-KEY':api}
+            req = requests.get(url,params=params,headers=headers)
+        else:
+            req = requests.get(url,params=params)
 
         return req.json()
     
-    def bulk_papers_retrieval(self,ids,api,fields,url='https://api.semanticscholar.org/graph/v1/paper/batch'):
+    def bulk_papers_retrieval(self,ids,fields,api=None,url='https://api.semanticscholar.org/graph/v1/paper/batch'):
 
         fields = ','.join(fields)
         params = {'fields':fields}
         all_ids = {'ids':ids}
-        headers = {'X-API-KEY':api}
         
+        
+        if api is not None:
+            
+            req = requests.post(url=url,
+            params=params,
+            headers=headers,
+            json=all_ids)
+        
+        else:
+            req = requests.post(url=url,
+            params=params,
+            json=all_ids)
 
-        #req = requests.post(url,params,json=all_ids)
-        req = requests.post(url=url,
-        params=params,
-        headers=headers,
-        json=all_ids)
 
         return req.json()
     
