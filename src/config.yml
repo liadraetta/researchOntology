@@ -1,0 +1,49 @@
+sparql:
+  semopenalex: |
+    PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+    PREFIX dcterms: <http://purl.org/dc/terms/>
+    PREFIX soa: <https://semopenalex.org/ontology/>
+    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+    PREFIX fabio: <http://purl.org/spar/fabio/>
+    PREFIX org: <http://www.w3.org/ns/org#>
+    PREFIX dbpedia-owl: <https://dbpedia.org/ontology/>
+
+    SELECT ?authorName ?paper ?paperTitle ?institution ?pubblicationYear ?keyword ?orcidID ?abstract WHERE {
+      ?paper soa:hasAuthorship ?authorship .
+      ?authorship soa:hasAuthor ?author .
+      ?author foaf:name ?authorName .
+      ?author foaf:name "Rossana Damiano"^^xsd:string .
+      ?author org:memberOf ?institution .
+      ?paper dcterms:title ?paperTitle.
+      ?paper fabio:hasPublicationYear ?pubblicationYear .
+      ?work soa:hasKeyword ?keyword.
+      #?work dcterms:abstract ?abstract.
+      ?author dbpedia-owl:orcidId ?orcidID
+    
+    }
+  cordis: |
+    PREFIX eurio:<http://data.europa.eu/s66#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    SELECT DISTINCT ?project ?start ?end ?proLab ?xLab ?person
+    WHERE
+    {
+      ?project eurio:isFundedBy ?grant; rdfs:label ?proLab .
+      
+      ?grant eurio:hasBeneficiary ?x ; eurio:startDate ?start ; eurio:endDate ?end.
+      ?x rdfs:label ?xLab; eurio:isRoleOf ?org .
+      ?org rdfs:label ?orgLab .
+      
+      FILTER(regex(?xLab,'universita degli studi di torino','i')).
+    } ORDER BY DESC(?end)
+  
+
+apis:
+  semantic_scholar: ''
+
+queries:
+  author_scholar: rossana damiano
+  paper_ids: ['2c845c41057fd94d07b5229d05e3625db12759ea']
+
+fields:
+  paper_info: ['title','authors','citations.title','citations.abstract']
