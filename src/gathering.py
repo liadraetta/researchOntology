@@ -16,11 +16,14 @@ class DataGather:
         req = requests.get(url,params=params,headers=headers)
         return req.json()
     
-    def scholar_search_author(self,query,api,url="https://api.semanticscholar.org/graph/v1/author/search"):
+    def scholar_search_author(self,query,api=None,url="https://api.semanticscholar.org/graph/v1/author/search"):
         
         params = {'query':query}
-        headers = {'X-API-KEY':api}
-        req = requests.get(url,params=params,headers=headers)
+        if api is not None:
+            headers = {'X-API-KEY':api}
+            req = requests.get(url,params=params,headers=headers)
+        else:
+            req = requests.get(url,params=params)
 
         return req.json()
     
