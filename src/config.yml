@@ -42,8 +42,17 @@ apis:
   semantic_scholar: ''
 
 queries:
-  author_scholar: rossana damiano
-  paper_ids: ['2c845c41057fd94d07b5229d05e3625db12759ea']
+  author_scholar: Rossana Damiano
+  query:  ['generative ai']
+  fields: venue
+  author_ids: ['1787198']
+  paper_ids: ['1787198']
+  ids: ["Allen Institute of Artificial Intelligence"]
+  affiliations : ['university of turin']
+  name : ['Peter Clark']
+
+
 
 fields:
-  paper_info: ['title','authors','citations.title','citations.abstract']
+  paper_info: ['title']
+  author_info: ['name','url','papers','papers.title','papers.year', 'papers.abstract', 'affiliations', 'papers.openAccessPdf', 'citationCount', 'hIndex']

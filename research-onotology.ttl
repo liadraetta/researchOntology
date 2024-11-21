@@ -127,6 +127,14 @@
              rdfs:range reo:Topic .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isSubOrganizationOF
+:isSubOrganizationOF rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Department ;
+                     rdfs:range reo:Industry ,
+                                reo:Non-profit ,
+                                reo:University .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#memberOf
 :memberOf rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
@@ -379,7 +387,8 @@ foaf:name rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Department
-:Department rdf:type owl:Class .
+:Department rdf:type owl:Class ;
+            rdfs:subClassOf foaf:Organization .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Editor
@@ -933,6 +942,11 @@ foaf:Project rdf:type owl:Class .
                             reo:University .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#_AI
+:_AI rdf:type owl:NamedIndividual ,
+              reo:keyword .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#_Introduction
 :_Introduction rdf:type owl:NamedIndividual ,
                         reo:journalContribution ;
@@ -961,6 +975,13 @@ foaf:Project rdf:type owl:Class .
                                                                  :isFundedBy :European_Commission .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#_rhétorique_et_réalité
+:_rhétorique_et_réalité rdf:type owl:NamedIndividual ,
+                                 reo:journalContribution ;
+                        :authoredBy :Elisabetta_Berardi ;
+                        fabio:publicationYear "2014"^^xsd:string .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#cultural_heritage
 :cultural_heritage rdf:type owl:NamedIndividual ,
                             reo:keyword .
@@ -980,18 +1001,6 @@ foaf:Project rdf:type owl:Class .
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#ontology
 :ontology rdf:type owl:NamedIndividual ,
                    reo:keyword .
-
-
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Ethics_&_AI
-:_AI rdf:type owl:NamedIndividual ,
-              reo:keyword .
-
-
-###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Les_Hymnes_de_Synésios_de_Cyrène:_chronologie,_rhétorique_et_réalité
-:_rhétorique_et_réalité rdf:type owl:NamedIndividual ,
-                                 reo:journalContribution ;
-                        :authoredBy :Elisabetta_Berardi ;
-                        fabio:publicationYear "2014"^^xsd:string .
 
 
 #################################################################

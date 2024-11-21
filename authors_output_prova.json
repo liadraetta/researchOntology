@@ -1,0 +1,3997 @@
+[
+    {
+        "authorId": "1787198",
+        "externalIds": {
+            "DBLP": [
+                "Viviana Patti"
+            ]
+        },
+        "name": "V. Patti",
+        "affiliations": [],
+        "citationCount": 6027,
+        "hIndex": 41,
+        "papers": [
+            {
+                "paperId": "0f9d73aff3db64622c9a4d1a146f79ef1b8e5c70",
+                "title": "WikiBio: a Semantic Resource for the Intersectional Analysis of Biographical Events",
+                "year": 2023,
+                "openAccessPdf": {
+                    "url": "http://arxiv.org/pdf/2306.09505",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "abs/2306.09505",
+                    "name": "ArXiv"
+                }
+            },
+            {
+                "paperId": "181ad8a919e6fa7adc2226ff1b852e22e19440dd",
+                "title": "A Multilingual Dataset of Racial Stereotypes in Social Media Conversational Threads",
+                "year": 2023,
+                "openAccessPdf": {
+                    "url": "https://aclanthology.org/2023.findings-eacl.51.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "674-684"
+                }
+            },
+            {
+                "paperId": "1b7dace39b74c5c3421d1d7619d8c0270377d12a",
+                "title": "User-Generated World Literatures: a Comparison between Two Social Networks of Readers",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "38-46"
+                }
+            },
+            {
+                "paperId": "63b95c542d52632ad51a62b1beac49c3684577a7",
+                "title": "UINAUIL: A Unified Benchmark for Italian Natural Language Understanding",
+                "year": 2023,
+                "openAccessPdf": {
+                    "url": "https://aclanthology.org/2023.acl-demo.33.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "348-356"
+                }
+            },
+            {
+                "paperId": "74319858be03dc7369537fc935126a1669d4458b",
+                "title": "Detecting racial stereotypes: An Italian social media corpus where psychology meets NLP",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "60",
+                    "pages": "103118",
+                    "name": "Inf. Process. Manag."
+                }
+            },
+            {
+                "paperId": "8b39640f3ae7fa68c0ec280252eb2ea9ef06d874",
+                "title": "EPIC: Multi-Perspective Annotation of a Corpus of Irony",
+                "year": 2023,
+                "openAccessPdf": {
+                    "url": "https://aclanthology.org/2023.acl-long.774.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "13844-13857"
+                }
+            },
+            {
+                "paperId": "f936d9986c3b14923fa35107247e7c8119e6d0f0",
+                "title": "The DEEP Sensorium: a multidimensional approach to sensory domain labelling",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "name": "Companion Proceedings of the ACM Web Conference 2023"
+                }
+            },
+            {
+                "paperId": "f9dc92937ac8061b3091abd8343feb98804c7188",
+                "title": "United-and-Close: An interactive visual platform for assessing urban segregation within the 15-minutes paradigm",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "name": "Adjunct Proceedings of the 31st ACM Conference on User Modeling, Adaptation and Personalization"
+                }
+            },
+            {
+                "paperId": "fa3f9f4723cb337d28bf1457ee091b8d22b2d884",
+                "title": "The World Literature Knowledge Graph",
+                "year": 2023,
+                "openAccessPdf": {
+                    "url": "https://arxiv.org/pdf/2307.16659",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "abs/2307.16659",
+                    "name": "ArXiv"
+                }
+            },
+            {
+                "paperId": "1c287ee549161d98cfba6d3f911b463c3883a39d",
+                "title": "DelBERTo: A Deep Lightweight Transformer for Sentiment Analysis",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "443-456"
+                }
+            },
+            {
+                "paperId": "2255878a02bf3d4c28792bc276cfd7180266c3a3",
+                "title": "Share and Shout: Proto-Slogans in Online Political Communities",
+                "year": 2022,
+                "openAccessPdf": {
+                    "url": "https://jlcl.org/article/download/228/226",
+                    "status": null
+                },
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Journal for Language Technology and Computational Linguistics"
+                }
+            },
+            {
+                "paperId": "28c6627963b4ed1670c85554a7e0e1ae51ad2568",
+                "title": "O-Dang! The Ontology of Dangerous Speech Messages",
+                "year": 2022,
+                "openAccessPdf": {
+                    "url": "http://arxiv.org/pdf/2207.10652",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "abs/2207.10652",
+                    "name": "ArXiv"
+                }
+            },
+            {
+                "paperId": "37d89892319ba80832d0db33110c0f87de9167bb",
+                "title": "Anticipating User Intentions in Customer Care Dialogue Systems",
+                "year": 2022,
+                "openAccessPdf": {
+                    "url": "https://iris.unica.it/bitstream/11584/389745/7/THMS_2022_post-print-iris.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "52",
+                    "pages": "973-983",
+                    "name": "IEEE Transactions on Human-Machine Systems"
+                }
+            },
+            {
+                "paperId": "3d2ec4d04aa6e0b6456225acc2c3b531d8f2a3e7",
+                "title": "Towards the Construction of a Dataset of Art-Related Synaesthetic Metaphors: Methods and Results",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "113-125"
+                }
+            },
+            {
+                "paperId": "3f86835a54257a4db8b4e14c2f42bd5bce9a3542",
+                "title": "Counter-TWIT: An Italian Corpus for Online Counterspeech in Ecological Contexts",
+                "year": 2022,
+                "openAccessPdf": {
+                    "url": "https://aclanthology.org/2022.woah-1.6.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Proceedings of the Sixth Workshop on Online Abuse and Harms (WOAH)"
+                }
+            },
+            {
+                "paperId": "5e8934c33616db06818a1bd33f8bd18136171dfc",
+                "title": "Italian NLP for Everyone: Resources and Models from EVALITA to the European Language Grid",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "174-180"
+                }
+            },
+            {
+                "paperId": "6919b168f42197d733b82c957a7a9438964d3ac0",
+                "title": "Analysing Moral Beliefs for Detecting Hate Speech Spreaders on Twitter",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "149-161"
+                }
+            },
+            {
+                "paperId": "6a2156f3921f5fc607cea54b3ce8a3b3aa19a485",
+                "title": "APPReddit: a Corpus of Reddit Posts Annotated for Appraisal",
+                "year": 2022,
+                "openAccessPdf": {
+                    "url": "https://arxiv.org/pdf/2205.15627",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "abs/2205.15627",
+                    "name": "ArXiv"
+                }
+            },
+            {
+                "paperId": "6fad5f2a25a17b9ffd33c0051a2ccc69266400e0",
+                "title": "Automatically Computing Connotative Shifts of Lexical Items",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "425-436"
+                }
+            },
+            {
+                "paperId": "75482397a162a8897677d2e918a9ef0f429e3315",
+                "title": "Investigating the role of swear words in abusive language detection tasks",
+                "year": 2022,
+                "openAccessPdf": {
+                    "url": "https://link.springer.com/content/pdf/10.1007/s10579-022-09582-8.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "57",
+                    "pages": "155-188",
+                    "name": "Language Resources and Evaluation"
+                }
+            },
+            {
+                "paperId": "8df39f85abae2e74280704f06c6fd5883b99067c",
+                "title": "The unbearable hurtfulness of sarcasm",
+                "year": 2022,
+                "openAccessPdf": {
+                    "url": "https://riunet.upv.es/bitstream/10251/197947/3/FrendaCignarellaBasile%20-%20The%20unbearable%20hurtfulness%20of%20sarcasm.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "193",
+                    "pages": "116398",
+                    "name": "Expert Syst. Appl."
+                }
+            },
+            {
+                "paperId": "a553b5674794dbdcced56778a87a176ff7783cf3",
+                "title": "Killing me softly: Creative and cognitive aspects of implicitness in abusive language online",
+                "year": 2022,
+                "openAccessPdf": {
+                    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3F48D6B4D72EE8FC0A7C99A9283E330D/S1351324922000316a.pdf/div-class-title-killing-me-softly-creative-and-cognitive-aspects-of-implicitness-in-abusive-language-online-div.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "29",
+                    "pages": "1516 - 1537",
+                    "name": "Natural Language Engineering"
+                }
+            },
+            {
+                "paperId": "f50c9025f4779d8b5d5d4efdb4c3831169fbeb90",
+                "title": "The URW-KG: a Resource for Tackling the Underrepresentation of non-Western Writers",
+                "year": 2022,
+                "openAccessPdf": {
+                    "url": "http://arxiv.org/pdf/2212.13104",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "abs/2212.13104",
+                    "name": "ArXiv"
+                }
+            },
+            {
+                "paperId": "2c47ba69098dc497de74bbc3f589c57dcd71d875",
+                "title": "Policycorpus XL: An Italian Corpus for the Detection of Hate Speech Against Politics",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": null
+            },
+            {
+                "paperId": "32e3415db7f8b0ee1d460fc23ba7cd5768d7160a",
+                "title": "A joint learning approach with knowledge injection for zero-shot cross-lingual hate speech detection",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "58",
+                    "pages": "102544",
+                    "name": "Inf. Process. Manag."
+                }
+            },
+            {
+                "paperId": "3737adc5a76b30ede7927f9bd74b3e7884a71acc",
+                "title": "Hate Speech and Topic Shift in the Covid-19 Public Discourse on Social Media in Italy",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "3033",
+                    "name": "8th Italian Conference on Computational Linguistics, CLiC-it 2021"
+                }
+            },
+            {
+                "paperId": "37f73590b9bcfd1c840f57dd28c0f6ff277b9887",
+                "title": "Representing the Under-Represented: a Dataset of Post-Colonial, and Migrant Writers",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "7:1-7:14"
+                }
+            },
+            {
+                "paperId": "3813d3a8fad5fe16d5bdd4bb6b801d634e5e5cdd",
+                "title": "Whose Opinions Matter? Perspective-aware Models to Identify Opinions of Hate Speech Victims in Abusive Language Detection",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "abs/2106.15896",
+                    "name": "ArXiv"
+                }
+            },
+            {
+                "paperId": "63833c4fb9a61db5d765ec621457cfdcb5ca4c65",
+                "title": "Fake News and Hate Speech. The Keys to Effective Policy Action",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Political Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "49-81",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "63ec78548897496a6ec44cb89106b782e986f8b6",
+                "title": "Frame Semantics for Social NLP in Italian: Analyzing Responsibility Framing in Femicide News Reports",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": null
+            },
+            {
+                "paperId": "682dde200a2f0b800709936111510f8c3248c149",
+                "title": "Recognizing Hate with NLP: The Teaching Experience of the #DeactivHate Lab in Italian High Schools",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": null
+            },
+            {
+                "paperId": "961e7ec2b2978807d55b47718cdc5de3d84d611e",
+                "title": "Emotionally Informed Hate Speech Detection: A Multi-target Perspective",
+                "year": 2021,
+                "openAccessPdf": {
+                    "url": "https://link.springer.com/content/pdf/10.1007/s12559-021-09862-5.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Medicine"
+                ],
+                "journal": {
+                    "volume": "14",
+                    "pages": "322 - 352",
+                    "name": "Cognitive Computation"
+                }
+            },
+            {
+                "paperId": "9c6ddc95c01151cda0471159cc4689814ba59d0a",
+                "title": "A Commonsense Reasoning Framework for Explanatory Emotion Attribution, Generation and Re-classification",
+                "year": 2021,
+                "openAccessPdf": {
+                    "url": "https://arxiv.org/pdf/2101.04017",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "227",
+                    "pages": "107166",
+                    "name": "Knowl. Based Syst."
+                }
+            },
+            {
+                "paperId": "b23c72917922454a27b67902ecec4c3191021073",
+                "title": "Towards multidomain and multilingual abusive language detection: a survey",
+                "year": 2021,
+                "openAccessPdf": {
+                    "url": "https://link.springer.com/content/pdf/10.1007/s00779-021-01609-1.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "27",
+                    "pages": "17-43",
+                    "name": "Personal and Ubiquitous Computing"
+                }
+            },
+            {
+                "paperId": "b3c531010009c923a2861372758d581bec89fea1",
+                "title": "Categorizing Misogynistic Behaviours in Italian, English and Spanish Tweets",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "66",
+                    "pages": "65-76",
+                    "name": "Proces. del Leng. Natural"
+                }
+            },
+            {
+                "paperId": "cb2beb72b0b6eeaea32da1c7d3ab910532c69949",
+                "title": "HaMor at the Profiling Hate Speech Spreaders on Twitter",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "2047-2055"
+                }
+            },
+            {
+                "paperId": "e0139675fc6b811e719384219809f4ae5217cdf0",
+                "title": "The Expression of Moral Values in the Twitter Debate: a Corpus of Conversations",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Italian Journal of Computational Linguistics"
+                }
+            },
+            {
+                "paperId": "010464aeee6e5ff385012b526d60039df963cb5f",
+                "title": "EVALITA4ELG: Italian Benchmark Linguistic Resources, NLP Services and Tools for the ELG Platform",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "https://iris.unito.it/bitstream/2318/1796028/1/ijcol-754.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "name": "Italian Journal of Computational Linguistics"
+                }
+            },
+            {
+                "paperId": "12995e2f92810de90072e99cea3dd49a42c6ef84",
+                "title": "\u201cContro L\u2019Odio\u201d: A Platform for Detecting, Monitoring and Visualizing Hate Speech against Immigrants in Italian Social Media",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "https://journals.openedition.org/ijcol/pdf/659",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Sociology"
+                ],
+                "journal": {
+                    "name": "Italian Journal of Computational Linguistics"
+                }
+            },
+            {
+                "paperId": "131429e5f4b0859afdf3c2720a529c87490ab90e",
+                "title": "FlorUniTo@TRAC-2: Retrofitting Word Embeddings on an Abusive Lexicon for Aggressive Language Detection",
+                "year": 2020,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "106-112"
+                }
+            },
+            {
+                "paperId": "145fbaa37f576e4f9009cf61b3be3292d93932f5",
+                "title": "HurtBERT: Incorporating Lexical Features with BERT for the Detection of Abusive Language",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "https://www.aclweb.org/anthology/2020.alw-1.5.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "34-43"
+                }
+            },
+            {
+                "paperId": "24a9ad3cea42d368274f1e48a654ee9026b30a1e",
+                "title": "Multilingual stance detection in social media political debates",
+                "year": 2020,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "63",
+                    "pages": "101075",
+                    "name": "Comput. Speech Lang."
+                }
+            },
+            {
+                "paperId": "348b5f5ddf0259667b33eb53bc16999faaf9cf03",
+                "title": "Modeling Annotator Perspective and Polarized Opinions to Improve Hate Speech Detection",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "https://ojs.aaai.org/index.php/HCOMP/article/download/7473/7260",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "151-154"
+                }
+            },
+            {
+                "paperId": "52eb2c09f2a61144a4d8dd9850ce2a320ba82fd5",
+                "title": "Do Linguistic Features Help Deep Learning? The Case of Aggressiveness in Mexican Tweets",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "https://riunet.upv.es/bitstream/10251/166375/1/Frenda%3bBanerjee%3bRosso%20-%20Do%20Lngustc%20Features%20Help%20Deep%20Learnng%3f%20The%20Case%20of%20Aggressvenessn%20Mexcan%20....pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "24",
+                    "name": "Computaci\u00f3n y Sistemas"
+                }
+            },
+            {
+                "paperId": "6381a15d07646a853076ddc64f0031cf2b6a462d",
+                "title": "Annotating Errors and Emotions in Human-Chatbot Interactions in Italian",
+                "year": 2020,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "687d0d1a09f43c820c80631a7930f11775575de1",
+                "title": "Time of Your Hate: The Challenge of Time in Hate Speech Detection on Social Media",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "https://www.mdpi.com/2076-3417/10/12/4180/pdf?version=1592481171",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "name": "Applied Sciences"
+                }
+            },
+            {
+                "paperId": "68da293bc4f2a031eefd1a5dfb0e01bcaf52d54a",
+                "title": "Misogyny Detection in Twitter: a Multilingual and Cross-Domain Study",
+                "year": 2020,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "57",
+                    "pages": "102360",
+                    "name": "Inf. Process. Manag."
+                }
+            },
+            {
+                "paperId": "7ae77d393a1385d919be7b7da2027540496c3562",
+                "title": "Introduction to the Special Section on Computational Modeling and Understanding of Emotions in Conflictual Social Interactions",
+                "year": 2020,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "20",
+                    "pages": "1 - 5",
+                    "name": "ACM Transactions on Internet Technology (TOIT)"
+                }
+            },
+            {
+                "paperId": "7b4900d7b47af99e64e4a33e73a2325ddab276ef",
+                "title": "SardiStance @ EVALITA2020: Overview of the Task on Stance Detection in Italian Tweets",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "https://books.openedition.org/aaccademia/pdf/6732",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Psychology"
+                ],
+                "journal": {
+                    "name": "EVALITA Evaluation of NLP and Speech Tools for Italian - December 17th, 2020"
+                }
+            },
+            {
+                "paperId": "95aa8e1222bf76be2bc67813621576565be56661",
+                "title": "Natural Language Generation in Dialogue Systems for Customer Care",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "http://ceur-ws.org/Vol-2263/paper004.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "name": "Proceedings of the Seventh Italian Conference on Computational Linguistics CLiC-it 2020"
+                }
+            },
+            {
+                "paperId": "9a7fed8d0e88f41dc773859ab6b75b932452c09a",
+                "title": "HaSpeeDe 2 @ EVALITA2020: Overview of the EVALITA 2020 Hate Speech Detection Task",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "https://books.openedition.org/aaccademia/pdf/6732",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Psychology"
+                ],
+                "journal": {
+                    "name": "EVALITA Evaluation of NLP and Speech Tools for Italian - December 17th, 2020"
+                }
+            },
+            {
+                "paperId": "a7299235ebe89bca02e94346403e8a92ea6bcebe",
+                "title": "#Brexit: Leave or Remain? The Role of User's Community and Diachronic Evolution on Stance Detection",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "https://riunet.upv.es/bitstream/10251/170080/7/LaiPattiRuffo%20-%20Brexit%20Leave%20or%20Remain%20The%20Role%20of%20Users%20Community%20and%20Diachronic%20Evolution%20on%20St....pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Political Science"
+                ],
+                "journal": {
+                    "volume": "39",
+                    "pages": "2341-2352",
+                    "name": "J. Intell. Fuzzy Syst."
+                }
+            },
+            {
+                "paperId": "bd6455c48dfdd7696ce155cb8df983f171eefddc",
+                "title": "Matching Theory and Data with Personal-ITY: What a Corpus of Italian YouTube Comments Reveals About Personality",
+                "year": 2020,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "abs/2011.07009",
+                    "name": "ArXiv"
+                }
+            },
+            {
+                "paperId": "c41655809f991fa0553cbb8e9a66f184a6cdc154",
+                "title": "Resources and benchmark corpora for hate speech detection: a systematic review",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "https://link.springer.com/content/pdf/10.1007/s10579-020-09502-8.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "55",
+                    "pages": "477 - 523",
+                    "name": "Language Resources and Evaluation"
+                }
+            },
+            {
+                "paperId": "c59bb1462743560afeba877282d57872705f4357",
+                "title": "Personal-ITY: A Novel YouTube-based Corpus for Personality Prediction in Italian",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "https://books.openedition.org/aaccademia/pdf/8203",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "abs/2011.05688",
+                    "name": "ArXiv"
+                }
+            },
+            {
+                "paperId": "f7c293b2f71a73a8b0d538276029365bc298af50",
+                "title": "Do You Really Want to Hurt Me? Predicting Abusive Swearing in Social Media",
+                "year": 2020,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "6237-6246"
+                }
+            },
+            {
+                "paperId": "06fc1dd65a3e326b854e015df8393235ad7fddbc",
+                "title": "Leveraging Hate Speech Detection to Investigate Immigration-related Phenomena in Italy",
+                "year": 2019,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "1-7",
+                    "name": "2019 8th International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW)"
+                }
+            },
+            {
+                "paperId": "4af68fb572b518edc7b3c04fb025c5b40eeca9ad",
+                "title": "Cross-domain and Cross-lingual Abusive Language Detection: A Hybrid Approach with Deep Learning and a Multilingual Lexicon",
+                "year": 2019,
+                "openAccessPdf": {
+                    "url": "https://www.aclweb.org/anthology/P19-2051.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "363-370"
+                }
+            },
+            {
+                "paperId": "50bad34f3b68323050a6298c112ac36a3a0c5b58",
+                "title": "Computational Models for Irony Detection in Three Spanish Variants",
+                "year": 2019,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "297-309"
+                }
+            },
+            {
+                "paperId": "53eaf2dde35f0df164912007a13d4d704cf8c920",
+                "title": "Computational Linguistics Against Hate: Hate Speech Detection and Visualization on Social Media in the \"Contro L'Odio\" Project",
+                "year": 2019,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "59096dd32f9b3b27bad813dd2955ec8e5fe8d9c2",
+                "title": "Stance polarity in political debates: A diachronic perspective of network homophily and conversations on Twitter",
+                "year": 2019,
+                "openAccessPdf": {
+                    "url": "https://riunet.upv.es/bitstream/10251/155502/3/Lai%3bTambuscio%3bPatti%20-%20Stance%20Polarity%20in%20Political%20Debates%3a%20a%20Diachronic%20Perspective%20of%20Network%20H....pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "124",
+                    "name": "Data Knowl. Eng."
+                }
+            },
+            {
+                "paperId": "688b0de8bff4b382e3ced4bc6a4fbd9bcecff26a",
+                "title": "Happy parents\u2019 tweets: An exploration of Italian Twitter data using sentiment analysis",
+                "year": 2019,
+                "openAccessPdf": {
+                    "url": "https://www.demographic-research.org/volumes/vol40/25/40-25.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Economics"
+                ],
+                "journal": {
+                    "name": "Demographic Research"
+                }
+            },
+            {
+                "paperId": "6eaea3a66cfc62a55127df22c3853b4ef659c405",
+                "title": "SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter",
+                "year": 2019,
+                "openAccessPdf": {
+                    "url": "https://www.aclweb.org/anthology/S19-2007.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "54-63"
+                }
+            },
+            {
+                "paperId": "add93adf2565b6fb4f9778fce6e5dcee39dbb9f0",
+                "title": "Annotating Hate Speech: Three Schemes at Comparison",
+                "year": 2019,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "cd752100426d2f5ff54f1036381d76be13c480d5",
+                "title": "A New Measure of Polarization in the Annotation of Hate Speech",
+                "year": 2019,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "588-603"
+                }
+            },
+            {
+                "paperId": "da64c8e2b2272562fa1b9b5aa217d3c7ed9c677a",
+                "title": "Stance or insults?",
+                "year": 2019,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": null
+            },
+            {
+                "paperId": "ed75331b989f8d18e8b6260e53ec6b6f74c1ba2f",
+                "title": "Stance Classification for Rumour Analysis in Twitter: Exploiting Affective Information and Conversation Structure",
+                "year": 2019,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Psychology",
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "abs/1901.01911",
+                    "name": "ArXiv"
+                }
+            },
+            {
+                "paperId": "058539e7001c74f21c1c2ac5bd2c85818cea8318",
+                "title": "Social Media Analysis for Monitoring Political Sentiment",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": null
+            },
+            {
+                "paperId": "06bda75b854bd9ee9b1a72c0091d49354aba4311",
+                "title": "A Data Viz Platform as a Support to Study, Analyze and Understand the Hate Speech Phenomenon",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "https://iris.unito.it/bitstream/2318/1684057/1/p28-capozzi.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "name": "Proceedings of the 2nd International Conference on Web Studies"
+                }
+            },
+            {
+                "paperId": "0e59c7eb3d4b012208ca81cca6092ccedbcfb56f",
+                "title": "Sentiment Polarity Classification at EVALITA: Lessons Learned and Open Challenges",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "https://iris.unito.it/bitstream/2318/1684800/1/08550785.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "12",
+                    "pages": "466-478",
+                    "name": "IEEE Transactions on Affective Computing"
+                }
+            },
+            {
+                "paperId": "1256879298bfa5859f78943331b4755c4901e099",
+                "title": "Special Track on Artificial Intelligence for Big Social Data Analysis",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "252"
+                }
+            },
+            {
+                "paperId": "12e6d3f1b8b4d257e1fa5f2de5eb89dfac1724ed",
+                "title": "Sixth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian: Final Workshop (EVALITA 2018)",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "179374a65e7abd6b6fb7d316a4666fd99919d9da",
+                "title": "Stance Evolution and Twitter Interactions in an Italian Political Debate",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "15-27"
+                }
+            },
+            {
+                "paperId": "1db3184acbaf6e91e388449190fedc80f6110b1d",
+                "title": "Application and Analysis of a Multi-layered Scheme for Irony on the Italian Twitter Corpus TWITTIR\u00d2",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "4204-4211",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "27dcfc8593a97f61b3c67ac186735028929c2dcc",
+                "title": "Evalita 2018: Overview on the 6th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "http://books.openedition.org/aaccademia/pdf/4421",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "33561d644601a3d127f0e529138bf5f47d2f6615",
+                "title": "Source-driven Representations for Hate Speech Detection",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "344c0a2de7d656fdc2332c005df7ddc360769ac1",
+                "title": "Language Resources and Tools for the Automatic Analysis of Gender and Hate Speech in Italian : A Contribution of the Italian Computational Linguistics Community.",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Psychology"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "36fd9ecfeb43671819df33bc1fe1e3743c9ed2a8",
+                "title": "An Italian Twitter Corpus of Hate Speech against Immigrants",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "3e9674a344db5e4e7aa02222d659e58e4307b084",
+                "title": "SemEval 2018 Task 2: Multilingual Emoji Prediction",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "https://www.aclweb.org/anthology/S18-1003.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "24-33"
+                }
+            },
+            {
+                "paperId": "43428cfd1b58b2bc173f63293581c3d6a5d5be15",
+                "title": "Editorial for the Special Issue on \"Love & Hate in the Time of Social Media and Social Networks\"",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "https://www.mdpi.com/2078-2489/9/8/185/pdf?version=1532512539",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "9",
+                    "pages": "185",
+                    "name": "Inf."
+                }
+            },
+            {
+                "paperId": "52a5f6d002c8fc645b6e281852a25369dc4d8bec",
+                "title": "14-ExLab@UniTo for AMI at IberEval2018: Exploiting Lexical Knowledge for Detecting Misogyny in English and Spanish Tweets",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Sociology",
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "234-241"
+                }
+            },
+            {
+                "paperId": "6402a29abf75c23d0e242aa41a5c6984aca2551d",
+                "title": "An Impossible Dialogue! Nominal Utterances and Populist Rhetoric in an Italian Twitter Corpus of Hate Speech against Immigrants",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "https://aclanthology.org/W19-35.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Political Science",
+                    "Computer Science"
+                ],
+                "journal": {
+                    "name": "Proceedings of the Third Workshop on Abusive Language Online"
+                }
+            },
+            {
+                "paperId": "64ad2367a1469f8695b150c56ce838d2e26f44e3",
+                "title": "#NonDicevoSulSerio at SemEval-2018 Task 3: Exploiting Emojis and Affective Content for Irony Detection in English Tweets",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "https://www.aclweb.org/anthology/S18-1106.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "649-654"
+                }
+            },
+            {
+                "paperId": "8c0d010c591cf6e14934e3169c93f58b2e363f86",
+                "title": "Automatic Identification of Misogyny in English and Italian Tweets at EVALITA 2018 with a Multilingual Hate Lexicon",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "https://books.openedition.org/aaccademia/pdf/4724",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "History"
+                ],
+                "journal": {
+                    "volume": "2263",
+                    "pages": "1-6",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "92450f118a2fb1a8274a1e292f3804d85cb98d4a",
+                "title": "ValenTO at SemEval-2018 Task 3: Exploring the Role of Affective Content for Detecting Irony in English Tweets",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "https://www.aclweb.org/anthology/S18-1105.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "643-648"
+                }
+            },
+            {
+                "paperId": "9a1c94a86faf2a0e75c733ca0bddfa2ab957b72c",
+                "title": "Preface to the Evalita 2018 Proceedings",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "http://books.openedition.org/aaccademia/pdf/4421",
+                    "status": null
+                },
+                "fieldsOfStudy": null,
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "9c6adbd4ba67483fd9f972eb45d72422cfd93d3e",
+                "title": "Overview of the EVALITA 2018 Italian Emoji Prediction (ITAMoji) Task",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "http://books.openedition.org/aaccademia/pdf/4421",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Sociology"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "1-9",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "b2ed85f4c149ef93d068e63dcfbaeff4c840fabf",
+                "title": "TWITTIR\u00d2: an Italian Twitter Corpus with a Multi-layered Annotation for Irony",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "https://journals.openedition.org/ijcol/pdf/502",
+                    "status": null
+                },
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Italian Journal of Computational Linguistics"
+                }
+            },
+            {
+                "paperId": "bb0a00504a95fb329ce88b02709385199d095713",
+                "title": "Italian happy parents In Twitter",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Psychology"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "c8b770a188de7c2e67a6c6412e988684cd7378c3",
+                "title": "Overview of the EVALITA 2018 Task on Irony Detection in Italian Tweets (IronITA)",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "cc897f8dc5fd301c85fe387896975c9491e5089e",
+                "title": "Hurtlex: A Multilingual Lexicon of Words to Hurt",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "http://books.openedition.org/aaccademia/pdf/2802",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Sociology"
+                ],
+                "journal": {
+                    "volume": "2253",
+                    "pages": "1-6",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "e5aa8f311a23d454318d6430fa405b93e691bfd4",
+                "title": "Sentiment Analysis of Microblogging Data",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Psychology",
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "1-17",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "e64fa7b4f74169968cf66a2653d14fc3f9029508",
+                "title": "SeCredISData 2018: Special Session on Sentiment, Emotion, and Credibility of Information in Social Data",
+                "year": 2018,
+                "openAccessPdf": {
+                    "url": "https://hal.archives-ouvertes.fr/hal-03044244/file/SeCredISData%202018_Special%20Session%20on%20Sentiment%2C%20Emotion%2C%20and%20Credibility%20of%20Information%20in%20Social%20Data.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "638-640",
+                    "name": "2018 IEEE 5th International Conference on Data Science and Advanced Analytics (DSAA)"
+                }
+            },
+            {
+                "paperId": "fca8b17b41df7c64507def95503e846d20fdd10e",
+                "title": "Introduction to the second workshop on natural language for artificial intelligence",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Engineering"
+                ],
+                "journal": {
+                    "volume": "2244",
+                    "pages": "1-3",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "14b563dbaa45229e4768e36e3c756c702d04c087",
+                "title": "Hate Speech Annotation: Analysis of an Italian Twitter Corpus",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Psychology",
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "2006",
+                    "pages": "1-6",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "3fa76549f23b9ee77d2afbc584e41c974a8c08ea",
+                "title": "EVALITA Goes Social: Tasks, Data, and Community at the 2016 Edition",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Sociology"
+                ],
+                "journal": {
+                    "volume": "3",
+                    "pages": "93-127",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "42d55745469d6696b60669aba9e5549e10c55b1d",
+                "title": "TWITTIR\u00d2: a Social Media Corpus with a Multi-layered Annotation for Irony",
+                "year": 2017,
+                "openAccessPdf": {
+                    "url": "http://books.openedition.org/aaccademia/pdf/2314",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Sociology"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "1-6",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "502d59dcc6a7963190d7c1ea29d7bfc4f17e57e1",
+                "title": "Overview of the Task on Stance and Gender Detection in Tweets on Catalan Independence",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Political Science"
+                ],
+                "journal": {
+                    "pages": "157-177"
+                }
+            },
+            {
+                "paperId": "7a015e305f39351d07446947795291ba120b2d7d",
+                "title": "Sentiment Polarity Classification of Figurative Language: Exploring the Role of Irony-Aware and Multifaceted Affect Features",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "46-57"
+                }
+            },
+            {
+                "paperId": "8681f5e73469373160edddb8affae276a4d19053",
+                "title": "Extracting Graph Topological Information and Users' Opinion",
+                "year": 2017,
+                "openAccessPdf": {
+                    "url": "https://iris.unito.it/bitstream/2318/1652430/1/Graph_Topological_Information_and_Users__Opinion.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "112-118"
+                }
+            },
+            {
+                "paperId": "94ace55cf2bc0b4c5fb52dceadb2dd8ce9fef695",
+                "title": "Tools and Resources for Detecting Hate and Prejudice against Immigrants in Social Media",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Political Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "79-84",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "a4983f19800e0cf7ad19a48505e7d21e0e781d99",
+                "title": "Semantic Aspects in Sentiment Analysis",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "31-48",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "cbd5a02bf7ab9a583c07de2b8a380329edf1d5a4",
+                "title": "Towards an Italian Lexicon for Polarity Classification (polarITA): a Comparative Analysis of Lexical Resources for Sentiment Analysis",
+                "year": 2017,
+                "openAccessPdf": {
+                    "url": "http://books.openedition.org/aaccademia/pdf/2314",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "1-6",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "d3091040338ab2ccded191aa3ae2a2513425d227",
+                "title": "Social Media Analysis for Monitoring Political Sentiment.",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Sociology"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "1-13",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "d684479df7443ed32beaafb9ae25b7150697df8e",
+                "title": "Exploring the Impact of Pragmatic Phenomena on Irony Detection in Tweets: A Multilingual Corpus Study",
+                "year": 2017,
+                "openAccessPdf": {
+                    "url": "https://www.aclweb.org/anthology/E17-1025.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "262-272"
+                }
+            },
+            {
+                "paperId": "e3d4910f82f9f8a25ad92ff217a2f467d32e4f09",
+                "title": "Happy parents' tweets",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Psychology"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "f1cf7d320edbfa253c4fe23ccdb8f8c74d0a4334",
+                "title": "Affect and Interaction in Agent-Based Systems and Social Media",
+                "year": 2017,
+                "openAccessPdf": {
+                    "url": "https://dl.acm.org/doi/pdf/10.1145/3018980",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "17",
+                    "pages": "1 - 8",
+                    "name": "ACM Transactions on Internet Technology (TOIT)"
+                }
+            },
+            {
+                "paperId": "f3c70f5def24035528b2121e192e39b0438dd783",
+                "title": "Hate speech and prejudice against immigrants in social media",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Psychology"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "f762afd65f3b680330e390f88d4cc39485345a01",
+                "title": "Ethical implications of analyzing opinions, emotions and interactions in social media",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "153-158",
+                    "name": "2017 Seventh International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW)"
+                }
+            },
+            {
+                "paperId": "0038e29a09cf1a73d778a0241578a425c9f55eb4",
+                "title": "EVALITA. Evaluation of NLP and Speech Tools for Italian",
+                "year": 2016,
+                "openAccessPdf": {
+                    "url": "http://books.openedition.org/aaccademia/pdf/1899",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Engineering"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "15d784cb4efdfab5c016d4f7c13b0993740fa472",
+                "title": "Tweeting in the Debate about Catalan Elections",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Political Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "67-70",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "2863608eaeb957417f05c30494287172fa94ff5f",
+                "title": "Tweeting and Being Ironic in the Debate about a Political Reform: the French Annotated Corpus TWitter-MariagePourTous",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "1619-1626",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "29a77da5a3198a8cc71212d9c66072fbf7a21e66",
+                "title": "Preface to the EVALITA 2016 Proceedings",
+                "year": 2016,
+                "openAccessPdf": {
+                    "url": "http://books.openedition.org/aaccademia/pdf/1899",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Psychology"
+                ],
+                "journal": {
+                    "volume": "1749",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "479090f8bd9ea1bec9cac9c5facd0f98be08a463",
+                "title": "Emotion and sentiment in social and expressive media: Introduction to the special issue",
+                "year": 2016,
+                "openAccessPdf": {
+                    "url": "https://riunet.upv.es/bitstream/10251/82086/3/IPM-SI-autor.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Psychology"
+                ],
+                "journal": {
+                    "volume": "52",
+                    "pages": "1-4",
+                    "name": "Inf. Process. Manag."
+                }
+            },
+            {
+                "paperId": "5ae37a05de6bd5f3b88a2d67ba772060097c83fa",
+                "title": "Friends and Enemies of Clinton and Trump: Using Context for Detecting Stance in Political Tweets",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Political Science"
+                ],
+                "journal": {
+                    "pages": "155-168"
+                }
+            },
+            {
+                "paperId": "5e171afa20a4179a433fe5869cae222d65202863",
+                "title": "Raising Interest and Collecting Suggestions on the EVALITA Evaluation Campaign",
+                "year": 2016,
+                "openAccessPdf": {
+                    "url": "http://books.openedition.org/aaccademia/pdf/1899",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Political Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "11-17",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "61f68ff8c7a3088ea114871d9deec7725da78a3a",
+                "title": "Annotating Sentiment and Irony in the Online Italian Political Debate on #labuonascuola",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "2892-2899",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "6d212406027f3660b769a609fe4c4911e000aa8f",
+                "title": "Ontology-based affective models to organize artworks in the social semantic web",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "52",
+                    "pages": "139-162",
+                    "name": "Inf. Process. Manag."
+                }
+            },
+            {
+                "paperId": "abfaa02253e3ae333bfbaf6810620f8d9b815da6",
+                "title": "Distinguishing between irony and sarcasm in social media texts: Linguistic observations",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Psychology"
+                ],
+                "journal": {
+                    "pages": "1-6",
+                    "name": "2016 International FRUCT Conference on Intelligence, Social Media and Web (ISMW FRUCT)"
+                }
+            },
+            {
+                "paperId": "aeb4cfa4e80f2a82a1d83f2341c59d7c29783d40",
+                "title": "Figurative messages and affect in Twitter: Differences between #irony, #sarcasm and #not",
+                "year": 2016,
+                "openAccessPdf": {
+                    "url": "https://iris.unito.it/bitstream/2318/1606921/1/1-s2.0-S0950705116301320-online.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "108",
+                    "pages": "132-143",
+                    "name": "Knowl. Based Syst."
+                }
+            },
+            {
+                "paperId": "b8a42cdf94def1e11ac700b1f687aa2974b3904a",
+                "title": "Irony Detection in Twitter",
+                "year": 2016,
+                "openAccessPdf": {
+                    "url": "https://riunet.upv.es/bitstream/10251/81998/3/TOIT-autor.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "16",
+                    "pages": "1 - 24",
+                    "name": "ACM Transactions on Internet Technology (TOIT)"
+                }
+            },
+            {
+                "paperId": "deeef046e14dcec310cf07275b76c1e14b345f1c",
+                "title": "Proceedings of the Workshop on Computational Modeling of People's Opinions, Personality, and Emotions in Social Media (PEOPLES)",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Psychology"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "f64cda06202afb4b58bfdff1d18702c0766ff8c7",
+                "title": "Subjective Well-Being and Social Media. A Semantically Annotated Twitter Corpus on Fertility and Parenthood",
+                "year": 2016,
+                "openAccessPdf": {
+                    "url": "http://books.openedition.org/aaccademia/pdf/1666",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Psychology"
+                ],
+                "journal": {
+                    "volume": "1749",
+                    "pages": "1-6",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "0bcd4a932ea67fd30f0bf304c446d9af0979358e",
+                "title": "ArsEmotica for arsmeteo.org: Emotion-Driven Exploration of Online Art Collections",
+                "year": 2015,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "288-293"
+                }
+            },
+            {
+                "paperId": "23bb029ccf7b38d69151c4e5a7c3297503be032f",
+                "title": "Debate on political reforms in Twitter: A hashtag-driven analysis of political polarization",
+                "year": 2015,
+                "openAccessPdf": {
+                    "url": "https://iris.unito.it/bitstream/2318/1532920/2/07344884.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "1-9",
+                    "name": "2015 IEEE International Conference on Data Science and Advanced Analytics (DSAA)"
+                }
+            },
+            {
+                "paperId": "34d4f9d3f18bc0c0bc39c1693b2b859bf8f02842",
+                "title": "State of the Art Language Technologies for Italian: The EVALITA 2014 Perspective",
+                "year": 2015,
+                "openAccessPdf": {
+                    "url": "https://iris.unito.it/bitstream/2318/1521599/1/IA076-1.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "9",
+                    "pages": "43-61",
+                    "name": "Intelligenza Artificiale"
+                }
+            },
+            {
+                "paperId": "39f8a3af5c36b26a987f93272930e4ab2916c7a7",
+                "title": "ValenTo: Sentiment Analysis of Figurative Language Tweets with Irony and Sarcasm",
+                "year": 2015,
+                "openAccessPdf": {
+                    "url": "https://aclanthology.org/S15-2117.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "694-698"
+                }
+            },
+            {
+                "paperId": "97ee966c9bceeab9e7e301aa2baf58410b56ab25",
+                "title": "Developing Corpora for Sentiment Analysis: The Case of Irony and Senti-TUT (Extended Abstract)",
+                "year": 2015,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "4188-"
+                }
+            },
+            {
+                "paperId": "d3bb3edaafbf7ae8c8cd321c4a28fc07b283e790",
+                "title": "Building a Corpus on a Debate on Political Reform in Twitter",
+                "year": 2015,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Political Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "171-176",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "db13913b0690ece5fd692ab5e99a2c96ecd7eff0",
+                "title": "ESSEM 2015 Emotion and Sentiment in Social and Expressive Media.",
+                "year": 2015,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Psychology"
+                ],
+                "journal": {
+                    "volume": "1351",
+                    "pages": "3-6",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "e44a98678a8e1826f7ac97cad25c9353dd1afdca",
+                "title": "Analyzing and annotating for sentiment analysis the socio-political debate on #labuonascuola",
+                "year": 2015,
+                "openAccessPdf": {
+                    "url": "http://books.openedition.org/aaccademia/pdf/1277",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Political Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "274-279",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "1234c321aeb235f9831dd254f88d748feb5dbb84",
+                "title": "Proceedings of the 4th evaluation campaign of Natural Language Processing and Speech tools for Italian (EVALITA'14)",
+                "year": 2014,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "537f5eeee63c5b5dda5d31dfab682ed8146aa978",
+                "title": "Overview of the Evalita 2016 SENTIment POLarity Classification Task",
+                "year": 2014,
+                "openAccessPdf": {
+                    "url": "https://doi.org/10.12871/clicit201429",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "50-58",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "5b47cd9ffa411c0e64a121d070639a4f61f5906c",
+                "title": "Developing corpora and tools for sentiment analysis: the experience of the University of Turin group",
+                "year": 2014,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Engineering"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "322-327",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "e125c9bc889b3aaa7693941ceecc276d92fedfe5",
+                "title": "Detecting Happiness in Italian Tweets: Towards an Evaluation Dataset for Sentiment Analysis in Felicitt\u00e0",
+                "year": 2014,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "56-63",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "124658fd10cac61fe388bffec6c9205ad8f5569e",
+                "title": "Emotional Responses to Artworks in Online Collections",
+                "year": 2013,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "997",
+                    "pages": "1-12",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "13351c0769a0a25e4b2b9d053359937db8f7bf48",
+                "title": "Constitutive and regulative specifications of commitment protocols: A decoupled approach",
+                "year": 2013,
+                "openAccessPdf": {
+                    "url": "https://iris.unito.it/bitstream/2318/143968/3/2013_ACMTIST_SpecialIssueAC_4aperto.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "4",
+                    "pages": "22:1-22:25",
+                    "name": "ACM Trans. Intell. Syst. Technol."
+                }
+            },
+            {
+                "paperId": "6ad12f57c16acb0a520d8a4ca25295045caef96d",
+                "title": "Felicitt\u00e0: Visualizing and Estimating Happiness in Italian Cities from Geotagged Tweets",
+                "year": 2013,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Political Science"
+                ],
+                "journal": {
+                    "pages": "95-106"
+                }
+            },
+            {
+                "paperId": "cfab72c1ddb97e16b2206ae363bc1f495dedb69a",
+                "title": "Organizing Artworks in an Ontology-based Semantic Affective Space",
+                "year": 2013,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "119-130"
+                }
+            },
+            {
+                "paperId": "e40b84927628dfe28df67b197173c4f6a9fb73bc",
+                "title": "Engineering commitment-based business protocols with the 2CL methodology",
+                "year": 2013,
+                "openAccessPdf": {
+                    "url": "https://iris.unito.it/bitstream/2318/151903/8/2014_JAAMAS_4aperto.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "28",
+                    "pages": "519 - 557",
+                    "name": "Autonomous Agents and Multi-Agent Systems"
+                }
+            },
+            {
+                "paperId": "08cc6e50ad2af67ed9beda7650c96c580f39dc65",
+                "title": "A Generalized Commitment Machine for 2CL Protocols and its Prolog Implementation",
+                "year": 2012,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "2-16"
+                }
+            },
+            {
+                "paperId": "2f929927c3e77e5ab90e90f8e49726b81e5691c6",
+                "title": "Flexible choreography-driven service selection",
+                "year": 2012,
+                "openAccessPdf": {
+                    "url": "https://iris.unito.it/bitstream/2318/112353/1/2012_IA_IOSb_4aperto.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "6",
+                    "pages": "97-115",
+                    "name": "Intelligenza Artificiale"
+                }
+            },
+            {
+                "paperId": "3d4ff913964855d4eff0c8f71837b26d0cc6b104",
+                "title": "Supporting the Analysis of Risks of Violation in Business Protocols: the MiFID Case Study",
+                "year": 2012,
+                "openAccessPdf": {
+                    "url": "https://link.springer.com/content/pdf/bfm:978-3-7908-2789-7/1",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Business"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "545-553",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "53c4f1d9689057a57eac03e9d9aab2d8dae30bfe",
+                "title": "Annotating Irony in a Novel Italian Corpus for Sentiment Analysis",
+                "year": 2012,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Art"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "1-7",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "d7cda268c34cb3166e1752d52629222efcf4ac6a",
+                "title": "A Generalized Commitment Machine for 2CL Protocols and Its Implementation",
+                "year": 2012,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "96-115"
+                }
+            },
+            {
+                "paperId": "123f0bc8b7c6b39a57e26091394baf35b8fd06a5",
+                "title": "ArsEmotica: emotions in the social semantic web",
+                "year": 2011,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "171-174"
+                }
+            },
+            {
+                "paperId": "138fd34766af0cea6aedc7ca06fb065bfee173dc",
+                "title": "WI 2011 Non-Program Committee Reviewers",
+                "year": 2011,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "1eb98c6f75ff2e5a33eaf7b2d4097dce624044b9",
+                "title": "From Tags to Emotions: Ontology-driven Sentimental Analysis in the Social Semantic Web",
+                "year": 2011,
+                "openAccessPdf": {
+                    "url": "https://iris.unito.it/bitstream/2318/115276/1/2012_IA_IOS_4aperto.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "6",
+                    "pages": "41-54",
+                    "name": "Intelligenza Artificiale"
+                }
+            },
+            {
+                "paperId": "4e38a852f361d582c6452411c042e292b506948b",
+                "title": "An Interaction-Oriented Agent Framework for Open Environments",
+                "year": 2011,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "68-79"
+                }
+            },
+            {
+                "paperId": "a767eb8dece7488756643275da354bc845604057",
+                "title": "Sentiment Analysis in the Planet Art: A Case Study in the Social Semantic Web",
+                "year": 2011,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "131-149"
+                }
+            },
+            {
+                "paperId": "af91f8ac085b0669f8b04f2f02fe0e1adbda5bf0",
+                "title": "Models of agent interaction based on modal logics",
+                "year": 2011,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "5",
+                    "pages": "83-88",
+                    "name": "Intelligenza Artificiale"
+                }
+            },
+            {
+                "paperId": "afdf5d84ce21767d1716e516c15f8f016830aa03",
+                "title": "Grafting regulations into business protocols: Supporting the analysis of risks of violation",
+                "year": 2011,
+                "openAccessPdf": {
+                    "url": "http://www.di.unito.it/%7Eargo/papers/2011_RELAW.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Engineering"
+                ],
+                "journal": {
+                    "pages": "50-59",
+                    "name": "2011 Fourth International Workshop on Requirements Engineering and Law"
+                }
+            },
+            {
+                "paperId": "db9382a785a20b868965f4f80fe773a908a0399e",
+                "title": "Back to the future: An interaction-oriented framework for social computing",
+                "year": 2011,
+                "openAccessPdf": {
+                    "url": "http://www.di.unito.it/%7Eargo/papers/2011_RESC.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "2-5",
+                    "name": "2011 First International Workshop on Requirements Engineering for Social Computing"
+                }
+            },
+            {
+                "paperId": "dfc0432b86e51c5ad8ac266644f44da4714eef94",
+                "title": "Learn the rules so you know how to break them properly",
+                "year": 2011,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Business"
+                ],
+                "journal": {
+                    "pages": "11-18"
+                }
+            },
+            {
+                "paperId": "ebcb49d39d30c44462e33c453c6c00be2dd3be6f",
+                "title": "Commitments with regulations: reasoning about safety and control in REGULA",
+                "year": 2011,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "467-474"
+                }
+            },
+            {
+                "paperId": "fe14adb0a95a698f238a51f2cbe33cb02f3359ca",
+                "title": "Constraint modeling for curriculum planning and validation",
+                "year": 2011,
+                "openAccessPdf": {
+                    "url": "https://bia.unibz.it/view/delivery/39UBZ_INST/12291728210001241/13291688070001241",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "19",
+                    "pages": "123 - 81",
+                    "name": "Interactive Learning Environments"
+                }
+            },
+            {
+                "paperId": "5f934057ed6d91e0449fd6ab957809c00aff51bf",
+                "title": "MERCURIO: An Interaction-oriented Framework for Designing, Verifying and Programming Multi-Agent Systems",
+                "year": 2010,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "627",
+                    "pages": "134-146",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "643493c9f820e314abde614224538a02fcf7461d",
+                "title": "DYnamics in LOGic",
+                "year": 2010,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "904159c3faf7ee1927cdcc3b8c72f073db114676",
+                "title": "Leveraging search and content exploration by exploiting context in folksonomy systems",
+                "year": 2010,
+                "openAccessPdf": {
+                    "url": "http://www.di.unito.it/%7Eargo/papers/2010_ABBHKKP-IJNRHM.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "16",
+                    "pages": "33 - 70",
+                    "name": "New Review of Hypermedia and Multimedia"
+                }
+            },
+            {
+                "paperId": "ec408a8f6f40cd75f71629ef2e9f0613ca923ce5",
+                "title": "WLog web agent system",
+                "year": 2010,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "0c1cb108970bb0d8aabd1fa63c1ca0ca256970fd",
+                "title": "Joint Achievement of Services' Personal Goals",
+                "year": 2009,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "494",
+                    "pages": "5-13",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "669dd8b7fd01cc3c3c6b1798c9e796e546f610f1",
+                "title": "Goal Preservation by Choreography-Driven Matchmaking",
+                "year": 2009,
+                "openAccessPdf": {
+                    "url": "https://link.springer.com/content/pdf/10.1007%2F978-3-540-93851-4_40.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "413-426"
+                }
+            },
+            {
+                "paperId": "7f8e6d780cee681ead6b503238b6c1016b0dcd8f",
+                "title": "ArsMeteo: artworks and tags floating over the planet art",
+                "year": 2009,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "331-332"
+                }
+            },
+            {
+                "paperId": "986898ebc355bda44a3d1f315028022ebe46a335",
+                "title": "Choice, interoperability, and conformance in interaction protocols and service choreographies",
+                "year": 2009,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "843-850"
+                }
+            },
+            {
+                "paperId": "c3e02938670d78f0c28c972fc5dcca41e91a17f9",
+                "title": "Context-based ranking in folksonomies",
+                "year": 2009,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "209-218"
+                }
+            },
+            {
+                "paperId": "0b5c491fdbf79b1f20efa0b4f26ed3097ec487e0",
+                "title": "Logiche multimodali per ragionare sull \u2019 interazione Multimodal Logics for Reasoning about Interaction",
+                "year": 2008,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "7b198e338e34ee3b5d4751dc789525261a4db02a",
+                "title": "Folksonomies meet ontologies in ARSMETEO: from social descriptions of artifacts to emotional concepts",
+                "year": 2008,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "132-143"
+                }
+            },
+            {
+                "paperId": "92850f331f0a9250f4c411cba7da9c5b714cb405",
+                "title": "A3-D11 Testbeds",
+                "year": 2008,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Engineering"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "c76a66ce17405deb5ac7a0bb484e30ec1f75e6c9",
+                "title": "Conservative Re-use Ensuring Matches for Service Selection",
+                "year": 2008,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "28-36"
+                }
+            },
+            {
+                "paperId": "dc82f2735ca0b24a7b4d58df010fec01bafc4584",
+                "title": "Multimodal Logics for Reasoning about Interaction",
+                "year": 2008,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "487",
+                    "pages": "82-87",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "0dd9ee7e9e8bdd3d299f5f4c4b8aa551254a983a",
+                "title": "A Service-Oriented Approach for Curriculum Planning and Validation",
+                "year": 2007,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "108-123",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "122bfcc5c47fab1f767597def9690fb90b9c0c55",
+                "title": "Preserving players goals: a choreography-driven matchmaking approach",
+                "year": 2007,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Business",
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "132-139"
+                }
+            },
+            {
+                "paperId": "15851b997067b67c5c9295316f963229ce0d8b61",
+                "title": "Reasoning on choreographies and capability requirements",
+                "year": 2007,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "2",
+                    "pages": "247-261",
+                    "name": "Int. J. Bus. Process. Integr. Manag."
+                }
+            },
+            {
+                "paperId": "48aefb3801cd93f009fbae2377e1a045c2e4fb16",
+                "title": "A Personalization Web Service for Curricula Planning and Validation",
+                "year": 2007,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "59bed2b42f927281677b52c66dce1518ad050d47",
+                "title": "Service selection by choreography-driven matching",
+                "year": 2007,
+                "openAccessPdf": {
+                    "url": "http://www.di.unito.it/~argo/papers/BBMPS_WEWST07.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "5-22"
+                }
+            },
+            {
+                "paperId": "5bb00c70cc2b6c7e759bd6f43c773dbc9d0a45d0",
+                "title": "A 3-D 10 Personal Information Systems in the Semantic Web-Lesson Learnt and Best Practices",
+                "year": 2007,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "7771a9d47642b7680fcd05621db3d2059f6cb587",
+                "title": "Reasoning-Based Curriculum Sequencing and Validation: Integration in a Service-Oriented Architecture",
+                "year": 2007,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "426-431"
+                }
+            },
+            {
+                "paperId": "7b8f4124156afc0af3d261816dcbf72f71daa277",
+                "title": "Reasoning about interaction protocols for customizing web service selection and composition",
+                "year": 2007,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "70",
+                    "pages": "53-73",
+                    "name": "J. Log. Algebraic Methods Program."
+                }
+            },
+            {
+                "paperId": "0c3d3842ca92eed9f663dc5f2aa2f944480a8799",
+                "title": "Verifying the compliance of personalized curricula to curricula models in the semantic web",
+                "year": 2006,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "53-62",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "0ff2c4a5efef3a45e042530fa672f9d8f104d229",
+                "title": "The Need of Capability Requirements Inside Choreographies and Interaction Protocols",
+                "year": 2006,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "17-24",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "1427d342abe770a770890db2e39d1f81e5619c33",
+                "title": "A Priori Conformance Verification for Guaranteeing Interoperability in Open Environments",
+                "year": 2006,
+                "openAccessPdf": {
+                    "url": "https://link.springer.com/content/pdf/10.1007/11948148_28.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "339-351"
+                }
+            },
+            {
+                "paperId": "148bf57d6452d47311313b71a58008dadd9ce66e",
+                "title": "Interaction Protocols and Capabilities: A Preliminary Report",
+                "year": 2006,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "63-77"
+                }
+            },
+            {
+                "paperId": "39f43343d21392d37c4858da850ad6cdc4da0408",
+                "title": "A Personalization Service for Curriculum Planning",
+                "year": 2006,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "17-20"
+                }
+            },
+            {
+                "paperId": "4386a133b10b52c812b9af2e66221f06efd699ef",
+                "title": "Modeling, Verifying and Reasoning about Web Services (Extended Abstract)",
+                "year": 2006,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "4540f06c8ba59cdf1aa9dcbad3b554702e501b29",
+                "title": "A 3-D 6 Testbeds II-Early Prototypes",
+                "year": 2006,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "48688fc1d3be9068e6e119981df80b26fd103bba",
+                "title": "Lexical gender in Hungarian: Reflections of Social Structures in an Electronic Corpus",
+                "year": 2006,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Sociology"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "182-195",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "57df5d4bb7ea6508fbbaf92d4c80b6af209c69cd",
+                "title": "Verifying web service conformance and interoperability w . r . t . a global choreography",
+                "year": 2006,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "9c2aa8b9ec3fc99a17dba38f429b4609df2f0442",
+                "title": "Conformance and Interoperability in Open Enviroments",
+                "year": 2006,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "204",
+                    "pages": "1-7",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "e13b694e4887db7c4e952710087ab4fe5162713e",
+                "title": "Modeling, verifying and reasoning about web services",
+                "year": 2006,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "196",
+                    "pages": "105-106",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "04f9ac13cb1f69ae471cb92c02ea8db0d1d5580d",
+                "title": "Personalization, Verification and Conformance for Logic-based Communicating Agents",
+                "year": 2005,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "177-183"
+                }
+            },
+            {
+                "paperId": "2957de2fb6161d63cba003beba6f95186c4c8411",
+                "title": "Verifying the Conformance of Web Services to Global Interaction Protocols: A First Step",
+                "year": 2005,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "257-271"
+                }
+            },
+            {
+                "paperId": "4207a4bde53e7c3c46fdab1870f685ac999667e6",
+                "title": "The REWERSE View on Policies",
+                "year": 2005,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "21",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "7aec82d7d757287435e3da5553690e56d94dd262",
+                "title": "Verification of Protocol Conformance and Agent Interoperability",
+                "year": 2005,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "265-283"
+                }
+            },
+            {
+                "paperId": "15bcc1312e658fe744f0d4fd2b10434bf50bec2a",
+                "title": "Web-Based Adaptive Tutoring: An Approach Based on Logic Agents and Reasoning about Actions",
+                "year": 2004,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "22",
+                    "pages": "3-39",
+                    "name": "Artificial Intelligence Review"
+                }
+            },
+            {
+                "paperId": "1801e47dace274463dbffe091319c4951a883c2c",
+                "title": "Reasoning about learning object metadata for adapting SCORM courseware",
+                "year": 2004,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "4-13",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "34e45d020131abe394e510ed2ec2961c6f09360c",
+                "title": "Reasoning Methods for Personalization on the Semantic Web",
+                "year": 2004,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "1-24",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "37502b0256db157ecffd479c465593fc1454cd9b",
+                "title": "Reasoning about logic-based agent interaction protocols",
+                "year": 2004,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "250-264",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "56bb296041763bbe3e8691ad6fd73c41a4ffc7fb",
+                "title": "Rule-based Policy Specification : State of the Art and Future Work",
+                "year": 2004,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "5ea3f72acfc8e0b0ebd2b0d836f972b1a5a4b569",
+                "title": "Verifying Protocol Conformance for Logic-Based Communicating Agents",
+                "year": 2004,
+                "openAccessPdf": {
+                    "url": "http://www.di.unito.it/~argo/papers/2004_PostProc_CLIMAV.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "196-212"
+                }
+            },
+            {
+                "paperId": "63abef665d1b7adb6f05a17d025fd005be37938a",
+                "title": "A3-D1 Personalization Functionality for the Semantic Web: Identification and Description of Techniques",
+                "year": 2004,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "73878291d1180a2268b50c2ee8d325694fdf66e5",
+                "title": "SCORM courseware adaptation on the Semantic Web",
+                "year": 2004,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "902de127adbb70633a5efd431baa511a501ee3ee",
+                "title": "Reasoning About Interaction Protocols for Web Service Composition",
+                "year": 2004,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "21-36"
+                }
+            },
+            {
+                "paperId": "9388a34c6c07ca9a70bb99d9af9e455b42eb2601",
+                "title": "Programming Rational Agents in a Modal Action Logic",
+                "year": 2004,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Mathematics"
+                ],
+                "journal": {
+                    "volume": "41",
+                    "pages": "207-257",
+                    "name": "Annals of Mathematics and Artificial Intelligence"
+                }
+            },
+            {
+                "paperId": "9cb70a83beea09df56cd1dd48dba3962e7a22622",
+                "title": "Reasoning About Agents' Interaction Protocols Inside DCaseLP",
+                "year": 2004,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "112-131"
+                }
+            },
+            {
+                "paperId": "c77794332c50537084880c81b346414a932219f1",
+                "title": "AH 2004 : 3rd international conference on adaptive hypermedia and adaptive web-based systems : workshop proceedings part 1",
+                "year": 2004,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "014012b519ad33b136a2a1bdfdf046923db38d01",
+                "title": "Applying Logic Inference Techniques for Gaining Flexibility and Adaptivity in Tutoring Systems",
+                "year": 2003,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "517-521"
+                }
+            },
+            {
+                "paperId": "2a0e0fd80738f864238df99e0f1e182b780d89cb",
+                "title": "Reasoning about Conversation Protocols in a Logic-Based Agent Language",
+                "year": 2003,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "300-311"
+                }
+            },
+            {
+                "paperId": "5eeb30fa7b8cf09737c32259bb7f6087194bc382",
+                "title": "Reasoning about Self and Others: Communicating Agents in a Model Action Logic",
+                "year": 2003,
+                "openAccessPdf": {
+                    "url": "http://www.di.unito.it/~argo/papers/LNCS/lncs_2841.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "228-241"
+                }
+            },
+            {
+                "paperId": "80d9a76a8750214d2b6076d67ed899fa163bb15e",
+                "title": "Reasoning about Communicating Agents in the Semantic Web",
+                "year": 2003,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "84-98"
+                }
+            },
+            {
+                "paperId": "8ccc5acc3a690d3fc0dcd2529dc199359231de8a",
+                "title": "Reasoning about Interaction for Personalizing Web Service Fruition",
+                "year": 2003,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "29-35"
+                }
+            },
+            {
+                "paperId": "d0e6f5dd07297f32da5cb97ff18de0981df45d63",
+                "title": "E-learning by doing, an approach based on techniques for reasoning about actions",
+                "year": 2003,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "16-24",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "f496d5cc166d06e4ee51774b62677fd1e027c5ef",
+                "title": "Personalizing web services by reasoning about interaction protocols",
+                "year": 2003,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "1-6",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "4b1a19d60d2289ec4a58dc77af1835c169c11990",
+                "title": "Using a rational agent in an adaptive web-based tutoring system",
+                "year": 2002,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "43-55",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "c9dcb20d335bb3f40bafafbefad2d247f75bfb22",
+                "title": "Setting up a framework for comparing adaptive educational hypermedia: First steps and application on curriculum sequencing",
+                "year": 2002,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "43-50",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "eb1a463dd729120d82bc93cb7ef95ee7d9d9bdb8",
+                "title": "U\u0302.OVTVN RE\u0302k3OXWXKbN'WKbc e\u0300 \u00d7ZYURgNKb\u00d7ZN2KMOS\u00d8Z\u00df\u00acTVOLU\u0300 WE\u0300I!\u00d8Z\u00d8e`MOISk\u00d7ZNic&YUW e\u0308N3e\u0301hKbN'` I!WeTE\u0300a\u0301Cma\u0301CH#I!`bN2fSN'WZ\u00df N'`I!RA\u030aN'WZOXY\u0301ZfS\u00d7i\u0308KMO TVN cbk3`bYge\u0302N.U\u0302QISWh\u00de \u00d7\u00deh\u00d8N'`bU\u0302QN TVYlI+cM\u00deVc}KbN'U\u0302Bc ]_Kb\u00d7ZNQTVN'qXN'RUOS\u00d8ZU\u0302QN'WKO!U\u0301acM\u00deVc}KbN'U\u0302 TVN cbk3`bYg\u00d8ZKMYUOSWec$U\u0300 YKb\u00d7o\u0303Kb\u00d7ZN cMN",
+                "year": 2002,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "f4b18e6b5f6e844afedde72c7dd6c7fe245f514a",
+                "title": "Supporting Users in Adaptive Web-based Applications: Techniques from Reasoning about Actions",
+                "year": 2002,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "49-55"
+                }
+            },
+            {
+                "paperId": "335a19abbb01eeb08dbd809ef1bdd003ff1945aa",
+                "title": "Programming Goal-Driven Web Sites Using an Agent Logic Language",
+                "year": 2001,
+                "openAccessPdf": {
+                    "url": "http://www.di.unito.it/~argo/papers/LNCS/lncs_1990.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "60-75"
+                }
+            },
+            {
+                "paperId": "60a69040b2b491d4f847567848c11922735ad5e6",
+                "title": "Reasoning about Complex Actions with Incomplete Knowledge: A Modal Approach",
+                "year": 2001,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "405-425"
+                }
+            },
+            {
+                "paperId": "b0af8ec383ebe77f5d8e3a6cc2de312c3695d3fc",
+                "title": "Exploiting planning capabilities of a rational agent in adaptive web-based recommendation systems: a case-study",
+                "year": 2001,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Engineering"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "9-12",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "e6e1999a450384f9e491d2396efc42f1073cc653",
+                "title": "Structureless, intention-guided web sites: planning based adaptation",
+                "year": 2001,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "237-241"
+                }
+            },
+            {
+                "paperId": "9b6375a5c0c0e85c7527d3ee182a269128677a69",
+                "title": "Intention-guided Web Sites: A New Perspective on Adaptation",
+                "year": 2000,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Engineering"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "68-82",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "ad2be3bb45ece4baac29c6f4847924876c32f456",
+                "title": "Modeling Agents in a Logic Action",
+                "year": 2000,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "18deff6689e0e87cfeaacb9c78cecc39b29c843c",
+                "title": "A Modal Programming Language for Representing Complex Actions",
+                "year": 1998,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "1-15",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "ae150324a226355b031925e363920106760526c2",
+                "title": "An Abductive Proof Procedure for Reasoning About Actions in Modal Logic Programming",
+                "year": 1996,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Mathematics",
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "132-150"
+                }
+            },
+            {
+                "paperId": "2d4642a0cce64fb84366daa6e109d5eb95ef341a",
+                "title": "Sommario/ Abstract",
+                "year": null,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "5ab19e5684b20276e5e5b6606ac7515fe07d0d57",
+                "title": "Towards a Common Linked Data Model for Sentiment and Emotion Analysis",
+                "year": null,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            }
+        ]
+    },
+    {
+        "authorId": "2155948988",
+        "externalIds": {},
+        "name": "Patti , Viviana",
+        "affiliations": [],
+        "citationCount": 79,
+        "hIndex": 1,
+        "papers": [
+            {
+                "paperId": "4c9522daeb44a00b7fedd18b3c499d8262f0fcee",
+                "title": "Developing corpora and tools for sentiment analysis: the experience of the University of Turin group",
+                "year": 2014,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Proceedings of the First Italian Conference on Computational Linguistics CLiC-it 2014 and of the Fourth International Workshop EVALITA 2014 9-11 December 2014, Pisa"
+                }
+            },
+            {
+                "paperId": "c002ef78cf394f1841e02edbfd469bed9e83815b",
+                "title": "Overview of the Evalita 2014 SENTIment POLarity Classification Task",
+                "year": 2014,
+                "openAccessPdf": {
+                    "url": "https://doi.org/10.12871/clicit201429",
+                    "status": null
+                },
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Proceedings of the First Italian Conference on Computational Linguistics CLiC-it 2014 and of the Fourth International Workshop EVALITA 2014 9-11 December 2014, Pisa"
+                }
+            }
+        ]
+    },
+    {
+        "authorId": "1393759226",
+        "externalIds": {},
+        "name": "P. Viviana",
+        "affiliations": [],
+        "citationCount": 0,
+        "hIndex": 0,
+        "papers": [
+            {
+                "paperId": "6574fad7df15928fe2056f7fd2d8343826346c2e",
+                "title": "\u9aa8\u518d\u751f\u306e\u305f\u3081\u306e\u7d79\u306b\u57fa\u3065\u304f\u7570\u65b93\u6b21\u5143\u751f\u4f53\u8863\u670d\u3010Powered by NICT\u3011",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Materials Science"
+                ],
+                "journal": {
+                    "volume": "123",
+                    "pages": "106",
+                    "name": "Biomaterials"
+                }
+            }
+        ]
+    },
+    {
+        "authorId": "2286040136",
+        "externalIds": {
+            "DBLP": [
+                "Viviana Patti"
+            ]
+        },
+        "name": "Viviana Patti",
+        "affiliations": [],
+        "citationCount": 21,
+        "hIndex": 2,
+        "papers": [
+            {
+                "paperId": "cc71ca64ee39eaa36050f3b209af4c703240868c",
+                "title": "Engineering Commitment-based Business Protocols with the 2CL Methodology: JAAMAS Extended Abstract",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "1259-1260"
+                }
+            },
+            {
+                "paperId": "71eee66f5e38497becca750469c9ad830aefdc57",
+                "title": "Constitutive and Regulative Specifications of Commitment Protocols: A Decoupled Approach (Extended Abstract)",
+                "year": 2015,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "4143-4147"
+                }
+            },
+            {
+                "paperId": "fd12feecd4b0389f46a66c6940d2ab3cb2646893",
+                "title": "Genetic Approach for Service Selection Problem in Composite Web Service",
+                "year": 2012,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "44",
+                    "pages": "22-29",
+                    "name": "International Journal of Computer Applications"
+                }
+            }
+        ]
+    },
+    {
+        "authorId": "2237782578",
+        "externalIds": {
+            "DBLP": [
+                "Viviana Patti"
+            ]
+        },
+        "name": "Viviana Patti",
+        "affiliations": [],
+        "citationCount": 98,
+        "hIndex": 4,
+        "papers": [
+            {
+                "paperId": "6f71be07535b385c11fc31ab61d23adc94e9a027",
+                "title": "MultiPICo: Multilingual Perspectivist Irony Corpus",
+                "year": 2024,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "16008-16021"
+                }
+            },
+            {
+                "paperId": "05c12403e93100c282d009710b68249422f95a2b",
+                "title": "EMit at EVALITA 2023: Overview of the Categorical Emotion Detection in Italian Social Media Task",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": null
+            },
+            {
+                "paperId": "08cd119becd298684fa0444e3a29827089182d6e",
+                "title": "HODI at EVALITA 2023: Overview of the first Shared Task on Homotransphobia Detection in Italian",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": null
+            },
+            {
+                "paperId": "31c892180220875618d021fb9f4869e3273ed1ac",
+                "title": "Inters8: A Corpus to Study Misogyny and Intersectionality on Twitter",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": null
+            },
+            {
+                "paperId": "74f538655d5f0ab5ea80feab8beff3ee1a6aefa5",
+                "title": "HaSpeeDe3 at EVALITA 2023: Overview of the Political and Religious Hate Speech Detection task",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": null
+            },
+            {
+                "paperId": "9e3c60fc43f3cfd4bf11662d9fa4839b80802052",
+                "title": "When Sarcasm Hurts: Irony-Aware Models for Abusive Language Detection",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "34-47"
+                }
+            },
+            {
+                "paperId": "b444597a3b83e47fbc1de4c475729f0d5efcb2b6",
+                "title": "#DeactivHate: An Educational Experience for Recognizing and Counteracting Online Hate Speech",
+                "year": 2023,
+                "openAccessPdf": {
+                    "url": "https://journals.openedition.org/ijcol/pdf/1199",
+                    "status": null
+                },
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Italian Journal of Computational Linguistics"
+                }
+            },
+            {
+                "paperId": "d0797d8f75d5ac6a6ef8977ae8249dd81e728f98",
+                "title": "Confidence-based Ensembling of Perspective-aware Models",
+                "year": 2023,
+                "openAccessPdf": {
+                    "url": "https://aclanthology.org/2023.emnlp-main.212.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "3496-3507"
+                }
+            },
+            {
+                "paperId": "ef791a45d838148b0309cb81e3b88412647e318f",
+                "title": "DisaggregHate It Corpus: A Disaggregated Italian Dataset of Hate Speech",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": null
+            },
+            {
+                "paperId": "8118d57aa893d47ef79bed517a95e5e804f1d3ba",
+                "title": "Mapping Biographical Events to ODPs Through Lexico-Semantic Patterns",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": null
+            },
+            {
+                "paperId": "81398a6f70f93c51c4eb8154cf835b44a076839c",
+                "title": "HateBR: Large expert annotated corpus of Brazilian Instagram comments for abusive language detection",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "bd2bf454f1b4bfcb08356f4b2b240d29cc05dd72",
+                "title": "Multilingual Stance Detection in Social Media: Four Political Debates on Twitter",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "084e79a70e8e15dad22bc3897cf9ce858ec952dc",
+                "title": "Developing Corpora for Sentiment Analysis: The Case of Irony and Senti-TUT",
+                "year": 2013,
+                "openAccessPdf": {
+                    "url": "https://iris.unito.it/bitstream/2318/140572/3/BPB13-IntSys.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "28",
+                    "pages": "55-63",
+                    "name": "IEEE Intelligent Systems"
+                }
+            }
+        ]
+    },
+    {
+        "authorId": "2323510781",
+        "externalIds": {},
+        "name": "Viviana Patti",
+        "affiliations": [],
+        "citationCount": 0,
+        "hIndex": 0,
+        "papers": [
+            {
+                "paperId": "f984475a00506ee1e72c141e8c76f53f24fbb3e4",
+                "title": "Dealing with Controversy: An Emotion and Coping Strategy Corpus Based on Role Playing",
+                "year": 2024,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "abs/2409.19025",
+                    "name": "ArXiv"
+                }
+            }
+        ]
+    },
+    {
+        "authorId": "2312897804",
+        "externalIds": {
+            "DBLP": [
+                "Viviana Patti"
+            ]
+        },
+        "name": "Viviana Patti",
+        "affiliations": [],
+        "citationCount": 0,
+        "hIndex": 0,
+        "papers": [
+            {
+                "paperId": "a031eb5b7539a85e9552826e0cb9755ea24f48c8",
+                "title": "SteRHeotypes Project. Detecting and Countering Ethnic Stereotypes emerging from Italian, Spanish and French Racial hoaxes",
+                "year": 2024,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "pages": "77-81"
+                }
+            }
+        ]
+    },
+    {
+        "authorId": "2099703701",
+        "externalIds": {},
+        "name": "Patti Viviana",
+        "affiliations": [],
+        "citationCount": 0,
+        "hIndex": 0,
+        "papers": [
+            {
+                "paperId": "c87eb19d2610f4777140ce8a675319e3459a5705",
+                "title": "ESSEM 2013Emotion and Sentiment in Social and Expressive MediaProceedings of the First International Workshop on Emotion and Sentiment in Social and Expressive Media: approaches and perspectives from AI (ESSEM 2013)",
+                "year": 2013,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Psychology"
+                ],
+                "journal": null
+            }
+        ]
+    },
+    {
+        "authorId": "2066329708",
+        "externalIds": {},
+        "name": "Viviana Patti",
+        "affiliations": [],
+        "citationCount": 0,
+        "hIndex": 0,
+        "papers": [
+            {
+                "paperId": "928793820bc3c88ecb9a46f75b60b7b9a9bd2d52",
+                "title": "Evalita 2014: Sentipolc Twitter dataset",
+                "year": 2014,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            }
+        ]
+    },
+    {
+        "authorId": "2286620728",
+        "externalIds": {},
+        "name": "Viviana Patti. 2020",
+        "affiliations": [],
+        "citationCount": 0,
+        "hIndex": 0,
+        "papers": [
+            {
+                "paperId": "b650dfe82e6491a6c09dd9dc0e268ea49c6d6456",
+                "title": "When More is not Necessary Better: Multilingual Auxiliary Tasks for Zero-Shot Cross-Lingual Transfer of Hate Speech Detection Models",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            }
+        ]
+    },
+    {
+        "authorId": "96633651",
+        "externalIds": {
+            "DBLP": [
+                "Lea Iaia"
+            ]
+        },
+        "name": "Lea Iaia",
+        "affiliations": [],
+        "citationCount": 373,
+        "hIndex": 11,
+        "papers": [
+            {
+                "paperId": "d3bf19c0389f677a870f22b8e8eef6946d3ceefd",
+                "title": "Exploring the Effects of Societal Cynicism on Social Media Dependency",
+                "year": 2024,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "55",
+                    "pages": "2",
+                    "name": "Commun. Assoc. Inf. Syst."
+                }
+            },
+            {
+                "paperId": "07562b4585fcf7a132ab6caf35fee7716b586397",
+                "title": "Supporting the implementation of AI in business communication: the role of knowledge management",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "28",
+                    "pages": "85-95",
+                    "name": "J. Knowl. Manag."
+                }
+            },
+            {
+                "paperId": "2b96b2e03c2643b381fb0af8a0ba203dfb0be9ee",
+                "title": "The scientific approach to facilitate the human-machine interactions. The case of Carrozzeria Fratelli Basile",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Journal of Management History"
+                }
+            },
+            {
+                "paperId": "d14e3e22d5cb10624426d7516b995dcb77a8c380",
+                "title": "Technology, Business and Sustainable Development",
+                "year": 2023,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": null
+            },
+            {
+                "paperId": "030ddce8198243cb11d899d85178efb3ea31311f",
+                "title": "Stakeholder engagement and\u00a0SDGs: the role of social media\u00a0in the European context",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "EuroMed Journal of Business"
+                }
+            },
+            {
+                "paperId": "177fb84563c78eb4e5c896307b60b2a4a4036d79",
+                "title": "Were we prepared to face a pandemic? Exploring companies' CSR disclosure on social media before COVID-19 outbreak",
+                "year": 2022,
+                "openAccessPdf": {
+                    "url": "https://www.emerald.com/insight/content/doi/10.1108/MD-12-2021-1651/full/pdf?title=were-we-prepared-to-face-a-pandemic-exploring-companies-csr-disclosure-on-social-media-before-covid-19-outbreak",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Medicine"
+                ],
+                "journal": {
+                    "name": "Management Decision"
+                }
+            },
+            {
+                "paperId": "78bc2ad4af7ac04c048844c3443b326252f77004",
+                "title": "Corrigendum to \u201cCan social media improve stakeholder engagement and communication of sustainable development goals? A cross-country analysis\u201d [Technol. Forecast. Soc. Change 177 (2022) 121525]",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Technological Forecasting and Social Change"
+                }
+            },
+            {
+                "paperId": "875b61d38998a13039507aafa3d7fbbefb010927",
+                "title": "The effects of influencer endorsement services on crowdfunding campaigns",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Journal of Services Marketing"
+                }
+            },
+            {
+                "paperId": "ad36e05f3069e9cc68639601120ddadb11c9f08e",
+                "title": "Air transport and mood in younger generations: The role of travel significance and COVID-19",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Medicine"
+                ],
+                "journal": {
+                    "volume": "103",
+                    "pages": "102230 - 102230",
+                    "name": "Journal of Air Transport Management"
+                }
+            },
+            {
+                "paperId": "bd304f90d90ba4d5865a5b3b095ca2d9b4c5827f",
+                "title": "The malevolent side of masstige consumers\u2019 behavior: The role of dark triad and technology propensity",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Journal of Business Research"
+                }
+            },
+            {
+                "paperId": "c40cf412d16811a9a0a589ee1bcd1172138a44f2",
+                "title": "Can social media improve stakeholder engagement and communication of Sustainable Development Goals? A cross-country analysis",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Technological Forecasting and Social Change"
+                }
+            },
+            {
+                "paperId": "d18e625b801617ac227804d22cc50550a9c3534b",
+                "title": "Responsible innovation in Asia: A systematic review and an agenda for future research",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "Asia Pacific Journal of Management"
+                }
+            },
+            {
+                "paperId": "d7fd1664fcd4aad3ac1aca4b9c464e7f05b11b2e",
+                "title": "Keep dreaming: how personality traits affects the recognition and exploitation of entrepreneurial opportunities in the agritourism industry",
+                "year": 2022,
+                "openAccessPdf": {
+                    "url": "https://www.research.unipd.it/bitstream/11577/3428055/1/8.%20Leonelli%20Iaia%20Masciarelli%20Vrontis%20%282022%29%20-%20BFJ.pdf",
+                    "status": null
+                },
+                "fieldsOfStudy": null,
+                "journal": {
+                    "name": "British Food Journal"
+                }
+            },
+            {
+                "paperId": "ed10157db4c77a6b228d4aa4054a414d19bf5fb9",
+                "title": "Renewable energy communities and Degrowth: participative governance for energy management",
+                "year": 2022,
+                "openAccessPdf": null,
+                "fieldsOfStudy": null,
+                "journal": {
+                    "pages": "1-8",
+                    "name": "2022 IEEE International Conference on Technology Management, Operations and Decisions (ICTMOD)"
+                }
+            },
+            {
+                "paperId": "21fc3e5384aa9cc64d35506cc1a9b95b28236963",
+                "title": "Marketing innovation and internationalization in smart city development: a systematic review, framework and research agenda",
+                "year": 2021,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Business"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": "International Marketing Review"
+                }
+            },
+            {
+                "paperId": "246d468c387523aa03433c32506a8a18dc229e49",
+                "title": "Communicating the stakeholder engagement process: A cross\u2010country analysis in the tourism sector",
+                "year": 2020,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Business"
+                ],
+                "journal": {
+                    "volume": "27",
+                    "pages": "1642-1652",
+                    "name": "Corporate Social Responsibility and Environmental Management"
+                }
+            },
+            {
+                "paperId": "30b8b192a33278913fb58605753792cf5cc2cfc3",
+                "title": "Cultural capital and online purchase of tourism services",
+                "year": 2020,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Business"
+                ],
+                "journal": {
+                    "volume": "80",
+                    "pages": "102797",
+                    "name": "Annals of Tourism Research"
+                }
+            },
+            {
+                "paperId": "6cca2153e150086509ea14071363255e200fd5ca",
+                "title": "Exploring the Effects of Social Value on Social Network Dependence",
+                "year": 2020,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Psychology"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "117-134",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "6eed8838ef7d7ea94e92427c77194021cbac8a62",
+                "title": "The \u201cWalk\u201d towards the UN Sustainable Development Goals: Does Mandated \u201cTalk\u201d through NonFinancial Disclosure Affect Companies\u2019 Financial Performance?",
+                "year": 2020,
+                "openAccessPdf": {
+                    "url": "https://www.mdpi.com/2071-1050/12/6/2324/pdf?version=1584416303",
+                    "status": null
+                },
+                "fieldsOfStudy": [
+                    "Business"
+                ],
+                "journal": {
+                    "name": "Sustainability"
+                }
+            },
+            {
+                "paperId": "a81e5dac3012b1d54a42e1592de29e79a97355a4",
+                "title": "Communities of practice and value co-creation: the motivational engagement system of the Italian consortia",
+                "year": 2020,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Political Science"
+                ],
+                "journal": {
+                    "name": "J. for Global Business Advancement"
+                }
+            },
+            {
+                "paperId": "fdcbfef8b0dd3fb38c853e6fcd35042643239af0",
+                "title": "Are Cynics More Social Network dependent? Exploring YouTube and Facebook Usage",
+                "year": 2020,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Sociology",
+                    "Computer Science"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "549ab9fe7c8f7ca810ac1665742322740f97e514",
+                "title": "Family businesses, corporate social responsibility, and websites",
+                "year": 2019,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Business"
+                ],
+                "journal": {
+                    "name": "British Food Journal"
+                }
+            },
+            {
+                "paperId": "fbd9ecf866c8275379faa74e71bffd77e441fccb",
+                "title": "CRM campaigns with choice for enhanced business process performance: The collectivist customers' collaborative role for positive word-of-mouth",
+                "year": 2019,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Computer Science",
+                    "Psychology"
+                ],
+                "journal": {
+                    "volume": "26",
+                    "pages": "1225-1239",
+                    "name": "Bus. Process. Manag. J."
+                }
+            },
+            {
+                "paperId": "c5fb5694d2c900779dfd6415c677fdcf6adb8125",
+                "title": "The image attributes of a destination: an analysis of the wine tourists\u2019 perception",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Economics"
+                ],
+                "journal": {
+                    "name": "EuroMed Journal of Business"
+                }
+            },
+            {
+                "paperId": "f209b3b085fbb2d102ab39c137fd0d1f11c045fe",
+                "title": "Wine web 2.0: digital communication and tourist netnography. Opportunities for new entrepreneurship",
+                "year": 2018,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Business"
+                ],
+                "journal": {
+                    "volume": "97",
+                    "pages": "83-104",
+                    "name": "Sinergie Italian Journal of Management"
+                }
+            },
+            {
+                "paperId": "a5e08dbfada31bc02b4d5e6e096a12aa45b1370e",
+                "title": "Wine, family businesses and web: marketing strategies to compete effectively",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Business"
+                ],
+                "journal": {
+                    "volume": "119",
+                    "pages": "2294-2308",
+                    "name": "British Food Journal"
+                }
+            },
+            {
+                "paperId": "c5d9d5d565d5028968961ff74062244fcc21dcd1",
+                "title": "FAMILY VS NO FAMILY BUSINESS IN WINE IDENTITY COMMUNICATION",
+                "year": 2017,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Business"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "740-749",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "29534b2403f399eefbd1afa15970c0832275550d",
+                "title": "WINE WEB VALUE: WEB MARKETING STRATEGIES FOR FAMILY BUSINESSES",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Business"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "992-1005",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "88ac6edb2e6b76e5b62e716555ee562bcc6e1800",
+                "title": "Wine tourism destination image on the web: a comparison between conveyed and perceived communication drivers",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Business"
+                ],
+                "journal": {
+                    "volume": "9",
+                    "pages": "169",
+                    "name": "J. for International Business and Entrepreneurship Development"
+                }
+            },
+            {
+                "paperId": "a10690d60aebdd555214ef81b7d1ce4e6872eb9e",
+                "title": "Origin based agro-food products: how to communicate their experiential value online?",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Sociology"
+                ],
+                "journal": {
+                    "volume": "118",
+                    "pages": "1845-1856",
+                    "name": "British Food Journal"
+                }
+            },
+            {
+                "paperId": "20f9e0815cb083b5a53e342aceb16ecca1d504a0",
+                "title": "Social web communication and CRM in the marketing strategies of wine enterprises",
+                "year": 2013,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Business"
+                ],
+                "journal": {
+                    "volume": "3",
+                    "pages": "103-116",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "db446ab80ce6712b428c31a65ee52d30f7c959e6",
+                "title": "Image analysis e wine tourism destination: la prospettiva dell\u2019enoturista",
+                "year": 2013,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Political Science",
+                    "Business"
+                ],
+                "journal": {
+                    "volume": "90",
+                    "pages": "119-139",
+                    "name": "Sinergie Italian Journal of Management"
+                }
+            }
+        ]
+    },
+    {
+        "authorId": "2074470329",
+        "externalIds": {},
+        "name": "Lea Iaia",
+        "affiliations": [],
+        "citationCount": 3,
+        "hIndex": 1,
+        "papers": [
+            {
+                "paperId": "1a39247202497350f721422a38192403754f699c",
+                "title": "La comunicazione dei wine bloggers: autoctono vs globale*",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Art",
+                    "Sociology"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "705a0707fa562355887b497af84e70c96b0fa512",
+                "title": "Wine Web Words: come i blogger comunicano i vini. Un confronto tra vino autoctono e vino internazionale",
+                "year": 2016,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Engineering"
+                ],
+                "journal": {
+                    "volume": "",
+                    "pages": "427-439",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "c23c4a90f31802697dd30ef40702c7d6df60eeea",
+                "title": "Experiential marketing per il brand-land dei prodotti tipici: diventare marchio comunicando il territorio",
+                "year": 2014,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Engineering"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "fa424e112f4ab0c14a0d64253995ba0da74a8503",
+                "title": "Diagnosi della capacit\u00e0 competitiva delle PMI sui mercati internazionali: ideazione e sperimentazione di un software innovativo \u2666",
+                "year": 2013,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Engineering"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            },
+            {
+                "paperId": "5e5db7dc44c968b8896086006717cb24fb09b437",
+                "title": "Le risorse immateriali nell\u2019immagine delle principali destinazioni enoturistiche internazionali",
+                "year": 2012,
+                "openAccessPdf": null,
+                "fieldsOfStudy": [
+                    "Art"
+                ],
+                "journal": {
+                    "volume": "",
+                    "name": ""
+                }
+            }
+        ]
+    }
+]
