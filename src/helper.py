@@ -1646,4 +1646,11 @@ iris_authors_1 = [
           "Lea",
           "IAIA"
         ]
-      }]
+      },
+    {
+        "column": [
+            "CRISTINA MARIA DORINA",
+            "VIANO"
+        ]
+    }
+]

@@ -14,7 +14,7 @@ gat = gathering.DataGather()
 
 # esempio semopenalex
 
-#semopenalex = gat.semopenalex(data['sparql']['semopenalex'])
+semopenalex = gat.semopenalex(data['sparql']['semopenalex'])
 
 
 # ci sono solo alcuni esempi delle api di semantic scholar per cercare. guarda le ref qui: https://api.semanticscholar.org/api-docs/#tag/Paper-Data/operation/get_graph_paper_bulk_search
@@ -34,11 +34,17 @@ sem_search = gat.scholar_search_author(data['queries']['author_scholar'],data['a
 
 #cordis = gat.cordis(data['sparql']['cordis'])
 #response = paper_bulk
-#print(bulk_author_search)
+
+#print(semopenalex)
+
+def save_output(api_call, output_file="api_output.json"):
+    response = api_call
+    with open(output_file, "w") as json_file:
+        json.dump(response, json_file, indent=4)
+
 
 iris_full_names = {" ".join(author["column"]).lower() for author in helper.iris_authors}
 
-# IRIS NAME matching
 def name_matching(api_response):
     filtered_papers = []
     for paper in api_response['data']:
@@ -69,10 +75,9 @@ def get_author_ids(iris_authors):
     return results
 
 
-def fetch_author_details(response, batch_size=10, output_file="authors_output_prova.json"):
+def fetch_author_details(response, batch_size=10, output_file="authors_output_dip_info.json"):
     author_ids = []  #
     for item in response:
-        print('item', item)
         for author in item.get('data', []):
             author_ids.append(author.get('authorId'))
     batches = [author_ids[i:i + batch_size] for i in range(0, len(author_ids), batch_size)]
@@ -95,5 +100,63 @@ def fetch_author_details(response, batch_size=10, output_file="authors_output_pr
     return all_details
 
 
+fetch_author_details(get_author_ids(helper.iris_authors))
 
-fetch_author_details(get_author_ids(helper.iris_authors_1))
+# RETRIEVE DATA FROM SEMOPENALEX SPARQL ENDPOINT
+
+SPARQL_ENDPOINT = "https://semopenalex.org/sparql"
+
+iris_authors = helper.iris_authors_1
+
+SPARQL_TEMPLATE = """
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX soa: <https://semopenalex.org/ontology/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX dbpedia-owl: <https://dbpedia.org/ontology/>
+
+SELECT ?authorName ?paper ?paperTitle ?institution ?pubblicationYear ?keyword ?orcidID ?abstract WHERE {
+  ?paper soa:hasAuthorship ?authorship .
+  ?authorship soa:hasAuthor ?author .
+  ?author foaf:name ?authorName .
+  ?author org:memberOf ?institution .
+  ?paper dcterms:title ?paperTitle.
+  ?paper fabio:hasPublicationYear ?pubblicationYear .
+  ?work soa:hasKeyword ?keyword.
+  ?author dbpedia-owl:orcidId ?orcidID
+  FILTER ({filter_conditions})
+}
+
+"""
+
+def create_filter_conditions(authors):
+    conditions = []
+    for author in authors:
+        full_name = " ".join(part.title() for part in author["column"])
+        conditions.append(f'?authorName = "{full_name}"')
+    return " || ".join(conditions)
+
+
+def query_semopenalex(authors):
+    filter_conditions = create_filter_conditions(authors)
+    sparql_query = SPARQL_TEMPLATE.replace("{filter_conditions}", filter_conditions)
+    response = requests.post(SPARQL_ENDPOINT, data={"query": sparql_query},
+                             headers={"Accept": "application/sparql-results+json"})
+    return response.json()
+
+try:
+    results = query_semopenalex(iris_authors)
+except Exception as e:
+    print(f"Error: {e}")
+
+
+def save_output(api_call, output_file):
+    response = api_call
+    with open(output_file, "w") as json_file:
+        json.dump(response, json_file, indent=4)
+
+# Here to query the SemOpenAlex endpoint
+#save_output(query_semopenalex(iris_authors), output_file="open_alex_output.json")

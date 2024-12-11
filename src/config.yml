@@ -13,7 +13,7 @@ sparql:
       ?paper soa:hasAuthorship ?authorship .
       ?authorship soa:hasAuthor ?author .
       ?author foaf:name ?authorName .
-      ?author foaf:name "Rossana Damiano"^^xsd:string .
+      ?author foaf:name "Lea Iaia"^^xsd:string .
       ?author org:memberOf ?institution .
       ?paper dcterms:title ?paperTitle.
       ?paper fabio:hasPublicationYear ?pubblicationYear .
