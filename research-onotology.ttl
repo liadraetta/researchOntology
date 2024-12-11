@@ -14,6 +14,15 @@
 <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology> rdf:type owl:Ontology .
 
 #################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty ;
+                                               rdfs:subPropertyOf rdfs:label .
+
+
+#################################################################
 #    Object Properties
 #################################################################
 
@@ -21,7 +30,7 @@
 :authoredBy rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             rdfs:domain reo:Work ;
-            rdfs:range foaf:Person .
+            rdfs:range :Person .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#editedBy
@@ -39,17 +48,17 @@
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#funds
 :funds rdf:type owl:ObjectProperty ;
        rdfs:domain [ rdf:type owl:Class ;
-                     owl:unionOf ( foaf:Organization
-                                   foaf:Person
+                     owl:unionOf ( :Organization
+                                   :Person
                                  )
                    ] ;
-       rdfs:range foaf:Project .
+       rdfs:range :Project .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasAffiliaton
 :hasAffiliaton rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
-               rdfs:domain foaf:Person ;
+               rdfs:domain :Person ;
                rdfs:range :Affiliation .
 
 
@@ -66,7 +75,7 @@
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#hasRole
 :hasRole rdf:type owl:ObjectProperty ;
          rdfs:subPropertyOf owl:topObjectProperty ;
-         rdfs:domain foaf:Person ;
+         rdfs:domain :Person ;
          rdfs:range reo:Role .
 
 
@@ -77,24 +86,24 @@
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isAuthorOf
 :isAuthorOf rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf :editorialRole ;
-            rdfs:domain foaf:Person ;
+            rdfs:domain :Person ;
             rdfs:range reo:Work .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isEditorOf
 :isEditorOf rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf :editorialRole ;
-            rdfs:domain foaf:Person ;
+            rdfs:domain :Person ;
             rdfs:range reo:Work .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#isFundedBy
 :isFundedBy rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
-            rdfs:domain foaf:Project ;
+            rdfs:domain :Project ;
             rdfs:range [ rdf:type owl:Class ;
-                         owl:unionOf ( foaf:Organization
-                                       foaf:Person
+                         owl:unionOf ( :Organization
+                                       :Person
                                      )
                        ] .
 
@@ -104,13 +113,13 @@
           rdfs:subPropertyOf owl:topObjectProperty ;
           rdfs:domain :Department ,
                       [ rdf:type owl:Class ;
-                        owl:unionOf ( reo:Work
-                                      foaf:Person
+                        owl:unionOf ( :Person
+                                      reo:Work
                                     )
                       ] ;
           rdfs:range [ rdf:type owl:Class ;
-                       owl:unionOf ( foaf:Organization
-                                     foaf:Project
+                       owl:unionOf ( :Organization
+                                     :Project
                                    )
                      ] .
 
@@ -119,9 +128,9 @@
 :isRelatedTo rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain [ rdf:type owl:Class ;
-                           owl:unionOf ( reo:Work
-                                         foaf:Person
-                                         foaf:Project
+                           owl:unionOf ( :Person
+                                         :Project
+                                         reo:Work
                                        )
                          ] ;
              rdfs:range reo:Topic .
@@ -138,19 +147,19 @@
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#memberOf
 :memberOf rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
-          rdfs:domain foaf:Person ;
-          rdfs:range foaf:Organization .
+          rdfs:domain :Person ;
+          rdfs:range :Organization .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#takesPartIn
 :takesPartIn rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain [ rdf:type owl:Class ;
-                           owl:unionOf ( foaf:Organization
-                                         foaf:Person
+                           owl:unionOf ( :Organization
+                                         :Person
                                        )
                          ] ;
-             rdfs:range foaf:Project .
+             rdfs:range :Project .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/edits
@@ -162,9 +171,9 @@ reo:edits rdf:type owl:ObjectProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/manages
 reo:manages rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
-            rdfs:domain foaf:Person ;
-            rdfs:range foaf:Organization ,
-                       foaf:Project .
+            rdfs:domain :Person ;
+            rdfs:range :Organization ,
+                       :Project .
 
 
 #################################################################
@@ -185,13 +194,13 @@ fabio:publicationYear rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#AffiliationEnd
 :AffiliationEnd rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf owl:topDataProperty ;
-                rdfs:domain foaf:Project ;
+                rdfs:domain :Project ;
                 rdfs:range xsd:dateTime .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#AffiliationStart
 :AffiliationStart rdf:type owl:DatatypeProperty ;
-                  rdfs:domain foaf:Person ;
+                  rdfs:domain :Person ;
                   rdfs:range xsd:dateTime .
 
 
@@ -230,6 +239,13 @@ fabio:publicationYear rdf:type owl:DatatypeProperty ;
           rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Projectstate
+:Projectstate rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain :Project ;
+              rdfs:range xsd:string .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#ScopusCode
 :ScopusCode rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
@@ -244,8 +260,8 @@ fabio:publicationYear rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#URL
 :URL rdf:type owl:DatatypeProperty ;
      rdfs:domain [ rdf:type owl:Class ;
-                   owl:unionOf ( reo:Work
-                                 foaf:Project
+                   owl:unionOf ( :Project
+                                 reo:Work
                                )
                  ] .
 
@@ -253,7 +269,7 @@ fabio:publicationYear rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#VATNumber
 :VATNumber rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty ;
-           rdfs:domain foaf:Organization .
+           rdfs:domain :Organization .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#WebOfScienceCode
@@ -270,14 +286,14 @@ fabio:publicationYear rdf:type owl:DatatypeProperty ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#callForProject
 :callForProject rdf:type owl:DatatypeProperty ;
-                rdfs:domain foaf:Project ;
+                rdfs:domain :Project ;
                 rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#contractNumber
 :contractNumber rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf owl:topDataProperty ;
-                rdfs:domain foaf:Project .
+                rdfs:domain :Project .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#editorCity
@@ -292,17 +308,17 @@ fabio:publicationYear rdf:type owl:DatatypeProperty ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#funderName
 :funderName rdf:type owl:DatatypeProperty ;
-            rdfs:domain foaf:Project .
+            rdfs:domain :Project .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#funding
 :funding rdf:type owl:DatatypeProperty ;
-         rdfs:domain foaf:Project .
+         rdfs:domain :Project .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#gender
 :gender rdf:type owl:DatatypeProperty ;
-        rdfs:domain foaf:Person ;
+        rdfs:domain :Person ;
         rdfs:range xsd:string .
 
 
@@ -338,7 +354,7 @@ fabio:publicationYear rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#orcidId
 :orcidId rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
-         rdfs:domain foaf:Person .
+         rdfs:domain :Person .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#pagesNumber
@@ -350,14 +366,27 @@ fabio:publicationYear rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#projectAcronym
 :projectAcronym rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf owl:topDataProperty ;
-                rdfs:domain foaf:Project ;
+                rdfs:domain :Project ;
                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#projectContractNumber
+:projectContractNumber rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Project ;
+                       rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#projectID
 :projectID rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty ;
-           rdfs:domain foaf:Project .
+           rdfs:domain :Project .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#projectTitle
+:projectTitle rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain :Project ;
+              rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#referee
@@ -374,7 +403,7 @@ fabio:publicationYear rdf:type owl:DatatypeProperty ;
 ###  http://xmlns.com/foaf/0.1/name
 foaf:name rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf owl:topDataProperty ;
-          rdfs:domain foaf:Person .
+          rdfs:domain :Person .
 
 
 #################################################################
@@ -383,16 +412,26 @@ foaf:name rdf:type owl:DatatypeProperty ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Affiliation
 :Affiliation rdf:type owl:Class ;
-             owl:disjointWith foaf:Organization .
+             owl:disjointWith :Organization .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Department
 :Department rdf:type owl:Class ;
-            rdfs:subClassOf foaf:Organization .
+            rdfs:subClassOf :Organization .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Editor
 :Editor rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Organization
+:Organization rdf:type owl:Class ;
+              owl:disjointWith :Person .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Others
+:Others rdf:type owl:Class ;
+        rdfs:subClassOf :Project .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#PE6_10
@@ -403,6 +442,19 @@ foaf:name rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#PE6_7
 :PE6_7 rdf:type owl:Class ;
        rdfs:subClassOf reo:ERCPanel .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Person
+:Person rdf:type owl:Class ;
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasRole ;
+                              owl:someValuesFrom reo:Role
+                            ] ;
+        owl:disjointWith reo:Work .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Project
+:Project rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#academicArea
@@ -450,6 +502,12 @@ foaf:name rdf:type owl:DatatypeProperty ;
 :economicAndStatisticalSciences rdf:type owl:Class ;
                                 rdfs:subClassOf :academicArea ;
                                 rdfs:comment "AREA MIN. 13 - Scienze economiche e statistiche" .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#fundingFromItalianPrivateEntities
+:fundingFromItalianPrivateEntities rdf:type owl:Class ;
+                                   rdfs:subClassOf :Project ;
+                                   rdfs:label "Funding from Italian private entities" .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#greekLanguageAndLiterature
@@ -500,6 +558,18 @@ foaf:name rdf:type owl:DatatypeProperty ;
                             rdfs:comment "AREA MIN. 14 - Scienze politiche e sociali" .
 
 
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#regionalAndLocalProject
+:regionalAndLocalProject rdf:type owl:Class ;
+                         rdfs:subClassOf :Project ;
+                         rdfs:label "Funding from regional, municipal, and local authority calls" .
+
+
+###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#universityFundingProject
+:universityFundingProject rdf:type owl:Class ;
+                          rdfs:subClassOf :Project ;
+                          rdfs:label "University funding" .
+
+
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Book
 reo:Book rdf:type owl:Class ;
          rdfs:subClassOf reo:Work ;
@@ -513,12 +583,12 @@ reo:ERCPanel rdf:type owl:Class ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Industry
 reo:Industry rdf:type owl:Class ;
-             rdfs:subClassOf foaf:Organization .
+             rdfs:subClassOf :Organization .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Non-profit
 reo:Non-profit rdf:type owl:Class ;
-               rdfs:subClassOf foaf:Organization .
+               rdfs:subClassOf :Organization .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Other
@@ -549,12 +619,11 @@ reo:Topic rdf:type owl:Class .
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/University
 reo:University rdf:type owl:Class ;
-               rdfs:subClassOf foaf:Organization .
+               rdfs:subClassOf :Organization .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Work
-reo:Work rdf:type owl:Class ;
-         owl:disjointWith foaf:Person .
+reo:Work rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/adjunctProfessor
@@ -660,7 +729,8 @@ reo:headOfDepartment rdf:type owl:Class ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/internationalProject
 reo:internationalProject rdf:type owl:Class ;
-                         rdfs:subClassOf foaf:Project .
+                         rdfs:subClassOf :Project ;
+                         rdfs:comment "Funding from European and international/foreign grants (public or private)" .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/interns
@@ -688,7 +758,8 @@ reo:languageLecturersAndCollaborators rdf:type owl:Class ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/nationalProject
 reo:nationalProject rdf:type owl:Class ;
-                    rdfs:subClassOf foaf:Project .
+                    rdfs:subClassOf :Project ;
+                    rdfs:comment "Funding from national ministerial calls and other public entities (excluding regions and local authorities)" .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/organizationRole
@@ -759,23 +830,6 @@ reo:universityRepresentative rdf:type owl:Class ;
                              rdfs:comment "52920 RAPPRESENTANTE DELL'ATENEO" .
 
 
-###  http://xmlns.com/foaf/0.1/Organization
-foaf:Organization rdf:type owl:Class ;
-                  owl:disjointWith foaf:Person .
-
-
-###  http://xmlns.com/foaf/0.1/Person
-foaf:Person rdf:type owl:Class ;
-            owl:equivalentClass [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasRole ;
-                                  owl:someValuesFrom reo:Role
-                                ] .
-
-
-###  http://xmlns.com/foaf/0.1/Project
-foaf:Project rdf:type owl:Class .
-
-
 #################################################################
 #    Individuals
 #################################################################
@@ -798,7 +852,7 @@ foaf:Project rdf:type owl:Class .
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Beaterice_Bucciarelli
 :Beaterice_Bucciarelli rdf:type owl:NamedIndividual ,
-                                foaf:Person ;
+                                :Person ;
                        :hasAffiliaton :DepartmentOfMathematics ;
                        :hasRole <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Collaborators_coord.> ;
                        foaf:name "Beatrice Bucciarelli"^^xsd:string .
@@ -847,7 +901,7 @@ foaf:Project rdf:type owl:Class .
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#European_Commission
 :European_Commission rdf:type owl:NamedIndividual ,
-                              foaf:Organization ;
+                              :Organization ;
                      :funds :_Social_Participation_and_Inclusion_through_Cultural_Engagement .
 
 
@@ -915,7 +969,7 @@ foaf:Project rdf:type owl:Class .
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Rossana_Damiano
 :Rossana_Damiano rdf:type owl:NamedIndividual ,
-                          foaf:Person ;
+                          :Person ;
                  :hasRole :AssociateProfessorSecondTier ;
                  :isAuthorOf :HaMor_at_the_Profiling_Hate_Speech_Spreaders_on_Twitter ,
                              :Ontology-Based_Visualisation_of_Cultural_Heritage ;
@@ -971,7 +1025,7 @@ foaf:Project rdf:type owl:Class .
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#_Social_Participation_and_Inclusion_through_Cultural_Engagement
 :_Social_Participation_and_Inclusion_through_Cultural_Engagement rdf:type owl:NamedIndividual ,
-                                                                          foaf:Project ;
+                                                                          :Project ;
                                                                  :isFundedBy :European_Commission .
 
 
