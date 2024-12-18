@@ -52,12 +52,22 @@ class DataGather:
         return req.json()
     
 
-    def cordis(self,query,url='https://cordis.europa.eu/datalab/sparql-endpoint/en'):
-        params = {'query':query,'format':'json'}
-        headers = {"Accept": "application/sparql-results+json"}
+    def cordis_extraction(self,params={'query':"contenttype='project' AND (programme/code='H2020') AND 'rocket'",'outputFormat':'json','key':''},url='https://cordis.europa.eu/api/dataextractions/getExtraction'):
+        params = params
 
-        req = requests.post(url,params=params,headers=headers)
-        return req.text
+        req = requests.get(url,params=params)
+
+        return req.json()
+    
+    def cordis_extraction_list(self,params={'key':''},url='https://cordis.europa.eu/api/dataextractions/listExtractions'):
+        params = params
+
+        req = requests.get(url,params=params)
+        tasksUrls = [x['destinationFileUri'] for x in req.json()['payload']['result']]
+        
+        return tasksUrls
+
+    
 
 
 
