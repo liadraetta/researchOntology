@@ -8,6 +8,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix fabio: <http://purl.org/spar/fabio/> .
 @base <http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology> .
 
@@ -18,8 +19,13 @@
 #################################################################
 
 ###  http://www.w3.org/2004/02/skos/core#altLabel
-<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty ;
-                                               rdfs:subPropertyOf rdfs:label .
+skos:altLabel rdf:type owl:AnnotationProperty ;
+              rdfs:subPropertyOf rdfs:label .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+skos:definition rdf:type owl:AnnotationProperty ;
+                rdfs:subPropertyOf rdfs:label .
 
 
 #################################################################
@@ -468,7 +474,9 @@ foaf:name rdf:type owl:DatatypeProperty ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Department
 :Department rdf:type owl:Class ;
-            rdfs:subClassOf :Organization .
+            rdfs:subClassOf :Organization ;
+            rdfs:label "Department"@it ,
+                       "Dipartimento"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Editor
@@ -477,13 +485,16 @@ foaf:name rdf:type owl:DatatypeProperty ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#ExternalOrganization
 :ExternalOrganization rdf:type owl:Class ;
-                      rdfs:subClassOf :Organization .
+                      rdfs:subClassOf :Organization ;
+                      rdfs:label "External Organization"@en ,
+                                 "Organizzazione esterna"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#HealthProtectionInitiatives
 :HealthProtectionInitiatives rdf:type owl:Class ;
                              rdfs:subClassOf :PublicEngagement ;
-                             rdfs:label "Iniziative di tutela della salute"@it .
+                             rdfs:label "Iniziative di tutela della salute"@it ,
+                                        "health protection Initiatives"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#LS1_MoleculesOfLife
@@ -538,12 +549,16 @@ foaf:name rdf:type owl:DatatypeProperty ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Organization
 :Organization rdf:type owl:Class ;
-              owl:disjointWith :Person .
+              owl:disjointWith :Person ;
+              rdfs:label "Organization"@en ,
+                         "Organizzazione"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Other
 :Other rdf:type owl:Class ;
-       rdfs:subClassOf :ExternalOrganization .
+       rdfs:subClassOf :ExternalOrganization ;
+       rdfs:label "Altro"@it ,
+                  "Other"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Others
@@ -609,7 +624,8 @@ foaf:name rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#ParticipatoryDemocracyInitiatives
 :ParticipatoryDemocracyInitiatives rdf:type owl:Class ;
                                    rdfs:subClassOf :PublicEngagement ;
-                                   rdfs:label "Iniziative di democrazia partecipativa"@it .
+                                   rdfs:label "Iniziative di democrazia partecipativa"@it ,
+                                              "Participatory democracy initiatves"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Person
@@ -627,17 +643,21 @@ foaf:name rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#Project
-:Project rdf:type owl:Class .
+:Project rdf:type owl:Class ;
+         skos:definition "The class 'Project' defines all the projects funded by private industry or supranational organizations (such as the EU) that are either presented or won by university members."@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#PublicEngagement
-:PublicEngagement rdf:type owl:Class .
+:PublicEngagement rdf:type owl:Class ;
+                  skos:definition "Public engagement encompasses all activities organized by the University or other external organizations, with the primary objective of disseminating research results to the public through informative initiatives"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#PublicEngagementTraining
 :PublicEngagementTraining rdf:type owl:Class ;
                           rdfs:subClassOf :PublicEngagement ;
-                          rdfs:label "Iniziative di formazione al Public Engagement"@it .
+                          rdfs:comment "Iniziative di formazione al Public Engagement"@it ;
+                          rdfs:label "Public engagement training"@en ,
+                                     "formazione al public engagement"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#SH1_IndividualsMarketsOrganisations
@@ -695,7 +715,9 @@ foaf:name rdf:type owl:DatatypeProperty ;
 :activityWithEducationalCommunity rdf:type owl:Class ;
                                   rdfs:subClassOf :PublicEngagement ;
                                   rdfs:comment "Attività di coinvolgimento e interazione con il mondo della scuola"@it ,
-                                               "Engagement and interaction activities with the educational community"@en .
+                                               "Engagement and interaction activities with the educational community"@en ;
+                                  rdfs:label "Activity with educational community"@en ,
+                                             "Attività con le scuole"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#agriculturalandVeterinarySciences
@@ -731,7 +753,9 @@ foaf:name rdf:type owl:DatatypeProperty ;
 :culturalInitiatives rdf:type owl:Class ;
                      rdfs:subClassOf :PublicEngagement ;
                      rdfs:comment "Organization of concerts, theatrical performances, film screenings, sporting events, exhibitions, displays, and other public utility events open to the community"@en ,
-                                  "Organizzazione di concerti, spettacoli teatrali, rassegne cinematografiche, eventi sportivi, mostre, esposizioni e altri eventi di pubblica utilità aperti alla comunità"@it .
+                                  "Organizzazione di concerti, spettacoli teatrali, rassegne cinematografiche, eventi sportivi, mostre, esposizioni e altri eventi di pubblica utilità aperti alla comunità"@it ;
+                     rdfs:label "Iniziative culturali"@it ,
+                                "cultural iniziatives"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#doctoralThesis
@@ -754,7 +778,8 @@ foaf:name rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#fundingFromItalianPrivateEntities
 :fundingFromItalianPrivateEntities rdf:type owl:Class ;
                                    rdfs:subClassOf :Project ;
-                                   rdfs:label "Funding from Italian private entities" .
+                                   rdfs:label "Finanziamenti da privati italiani"@it ,
+                                              "Funding from Italian private entities" .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#historicalPhilosophicalPedagogicalPsychologicalSciences
@@ -798,7 +823,9 @@ foaf:name rdf:type owl:DatatypeProperty ;
 :nonExpertAudiencePubblication rdf:type owl:Class ;
                                rdfs:subClassOf :PublicEngagement ;
                                rdfs:comment "Pubblicazioni (cartacee e digitali) dedicate al pubblico non esperto"@it ,
-                                            "Publications (print and digital) aimed at a non-expert audience"@en .
+                                            "Publications (print and digital) aimed at a non-expert audience"@en ;
+                               rdfs:label "Non expert Audience Pubblication"@en ,
+                                          "Pubblicazioni per un pubblico non esperto"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#other
@@ -816,7 +843,9 @@ foaf:name rdf:type owl:DatatypeProperty ;
 :policyMaking rdf:type owl:Class ;
               rdfs:subClassOf :PublicEngagement ;
               rdfs:comment "Partecipazione alla formulazione di programmi di pubblico interesse (policy-making)"@it ,
-                           "Participation in the formulation of programs of public interest (policy-making)"@en .
+                           "Participation in the formulation of programs of public interest (policy-making)"@en ;
+              rdfs:label "Interesse pubblico"@it ,
+                         "Policy making"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#politicalAndSocialSciences
@@ -828,34 +857,41 @@ foaf:name rdf:type owl:DatatypeProperty ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#radioAndTelevisionProgram
 :radioAndTelevisionProgram rdf:type owl:Class ;
                            rdfs:subClassOf :PublicEngagement ;
-                           rdfs:comment "Production of radio and television programs\""@en ,
-                                        "Produzione di programmi radiofonici e televisivi"@it .
+                           rdfs:label "Production of radio and television programs"@en ,
+                                      "Produzione di programmi radiofonici e televisivi"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#regionalAndLocalProject
 :regionalAndLocalProject rdf:type owl:Class ;
                          rdfs:subClassOf :Project ;
-                         rdfs:comment "Funding from regional, municipal, and local authority calls" .
+                         rdfs:comment "Funding from regional, municipal, and local authority calls" ;
+                         rdfs:label "Progetti regionali e locali"@it ,
+                                    "Regional and local project"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#researchSharingOrganization
 :researchSharingOrganization rdf:type owl:Class ;
                              rdfs:subClassOf :PublicEngagement ;
                              rdfs:comment "Organization of initiatives for the enhancement, consultation, and sharing of research"@it ,
-                                          "Organizzazione di iniziative di valorizzazione, consultazione e condivisione della ricerca"@it .
+                                          "Organizzazione di iniziative di valorizzazione, consultazione e condivisione della ricerca"@it ;
+                             rdfs:label "Research sharing organization"@en ,
+                                        "diffusione della ricerca"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#universityFundingProject
 :universityFundingProject rdf:type owl:Class ;
                           rdfs:subClassOf :Project ;
-                          rdfs:label "University funding" .
+                          rdfs:comment "Finanziamenti di Ateneo"@en ;
+                          rdfs:label "University funding" ,
+                                     "finanziamenti di Ateneo"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology#webSiteAndSocialMedia
 :webSiteAndSocialMedia rdf:type owl:Class ;
                        rdfs:subClassOf :PublicEngagement ;
                        rdfs:comment "Pubblicazione e gestione di siti web e altri canali social di comunicazione e divulgazione scientifica"@it ,
-                                    "Publishing and managing websites and other social media channels for communication and scientific outreach"@en .
+                                    "Publishing and managing websites and other social media channels for communication and scientific outreach"@en ;
+                       rdfs:label "Website and social media"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Book
@@ -866,17 +902,22 @@ reo:Book rdf:type owl:Class ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/ERCPanel
 reo:ERCPanel rdf:type owl:Class ;
-             rdfs:subClassOf reo:Topic .
+             rdfs:subClassOf reo:Topic ;
+             rdfs:comment "ERC Panel 2024"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Industry
 reo:Industry rdf:type owl:Class ;
-             rdfs:subClassOf :ExternalOrganization .
+             rdfs:subClassOf :ExternalOrganization ;
+             rdfs:label "Aziende private"@it ,
+                        "Private Industry"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Non-profit
 reo:Non-profit rdf:type owl:Class ;
-               rdfs:subClassOf :ExternalOrganization .
+               rdfs:subClassOf :ExternalOrganization ;
+               rdfs:label "Non profit organization"@en ,
+                          "organizzazione no profit"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Other
@@ -898,20 +939,25 @@ reo:PhDStudent rdf:type owl:Class ;
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Role
 reo:Role rdf:type owl:Class ;
-         owl:disjointWith reo:Work .
+         owl:disjointWith reo:Work ;
+         skos:definition "The class 'Role' describes all the roles that people can have in a university or industry organization, such as PhD student, associate professor, or manager"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Topic
-reo:Topic rdf:type owl:Class .
+reo:Topic rdf:type owl:Class ;
+          skos:definition "The class 'Topic' defines all the topics that works/projects could be about and that people engage with, including standard and institutional ones such as academic areas or ERC panels, as well as custom ones like keywords"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/University
 reo:University rdf:type owl:Class ;
-               rdfs:subClassOf :Organization .
+               rdfs:subClassOf :Organization ;
+               rdfs:label "University"@en ,
+                          "Università"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/Work
-reo:Work rdf:type owl:Class .
+reo:Work rdf:type owl:Class ;
+         skos:definition "The class 'Work' defines all the research products that a university could produce in different fields, such as 'Book Chapter' and 'Patent'"@en .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/adjunctProfessor
@@ -1018,7 +1064,9 @@ reo:headOfDepartment rdf:type owl:Class ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/internationalProject
 reo:internationalProject rdf:type owl:Class ;
                          rdfs:subClassOf :Project ;
-                         rdfs:comment "Funding from European and international/foreign grants (public or private)" .
+                         rdfs:comment "Funding from European and international/foreign grants (public or private)" ;
+                         rdfs:label "International projects"@en ,
+                                    "Progetti internazionali"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/interns
@@ -1047,7 +1095,9 @@ reo:languageLecturersAndCollaborators rdf:type owl:Class ;
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/nationalProject
 reo:nationalProject rdf:type owl:Class ;
                     rdfs:subClassOf :Project ;
-                    rdfs:comment "Funding from national ministerial calls and other public entities (excluding regions and local authorities)" .
+                    rdfs:comment "Funding from national ministerial calls and other public entities (excluding regions and local authorities)" ;
+                    rdfs:label "National projects"@en ,
+                               "Progetti nazionali"@it .
 
 
 ###  http://www.semanticweb.org/liadraetta/ontologies/2024/8/research-ontology/organizationRole
